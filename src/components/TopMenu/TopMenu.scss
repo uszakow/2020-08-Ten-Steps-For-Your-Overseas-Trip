@@ -1,0 +1,32 @@
+@import "../../variables";
+
+.topmenu-wrap {
+    margin-top: 10px;
+    display: flex;
+    border-bottom: 1px solid $grey-dark;
+    a {
+        width: 120px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 2px 5px 2px 5px;
+        border: 1px solid $grey-dark;
+        border-radius: 20px 20px 0 0;
+        margin: 0 4px;
+        position: relative;
+        bottom: -1px;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .topmenu-item-active {
+        border-bottom: 0;
+    }
+}
+
+@media (min-width: $md) {   
+    .topmenu-wrap {
+        padding-left: 270px;
+    }
+}

@@ -1,0 +1,102 @@
+@import "../../variables";
+
+.sidemenu-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 260px;
+    background-color: $grey-dark;
+    padding: 10px 0 5px 0;
+    margin-top: 10px;
+}
+
+.sidemenu-mobile {
+    border: 1px solid black;
+    .sidemenu-control {
+        width: 40px;
+        height: 40px;
+        background-color: $grey-dark;
+        padding: 0;
+        border: 1px solid black;
+        border-left: 0;
+        position: absolute;
+        right: -40px;
+        top: -1px;
+        cursor: pointer;
+        span,
+        span::before,
+        span::after {
+            height: 4px;
+            background-color: black;
+            border-radius: 2px;
+            display: block;
+            position: absolute;
+            top: 50%;
+            margin-top: -2px;
+            margin-left: -15px;
+        }
+        span {
+            right: 5px;
+        }
+        span::before,
+        span::after {
+            right: 0;
+            transition: 0.5s;
+        }
+    }
+}
+.sidemenu-mobile.sidemenu-mobile-hidden {
+    position: absolute;
+    transition: 0.7s;
+    left: -255px;
+    .sidemenu-control {
+        span {
+            width: 30px;
+            right: 5px;
+            transition: 0.5s;
+        }
+        span::before,
+        span::after {
+            content: "";
+            display: block;
+            width: 15px;
+        }
+        span::before {
+            transform-origin: right bottom;
+            transform: rotate(30deg);
+        }
+        span::after {
+            transform-origin: right top;
+            transform: rotate(-30deg);
+        }
+    }
+}
+.sidemenu-mobile.sidemenu-mobile-active {
+    position: absolute;
+    transition: 0.7s;
+    left: 0;
+    .sidemenu-control {
+        span {
+            width: 0;
+        }
+        span::before,
+        span::after {
+            content: "";
+            display: block;
+            width: 30px;
+        }
+        span::before {
+            transform: rotate(45deg);
+        }
+        span::after {
+            transform: rotate(-45deg);
+        }
+    }
+}
+
+.sidemenu-desctop {
+    margin-bottom: 10px;
+    .sidemenu-control {
+        display: none;
+    }
+}
