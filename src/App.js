@@ -7,6 +7,7 @@ import {
   Route
 } from 'react-router-dom';
 
+import Banner from './components/Banner/Banner';
 import TopMenu from './components/TopMenu/TopMenu';
 import SideMenu from './components/SideMenu/SideMenu';
 
@@ -15,6 +16,7 @@ class App extends Component {
     super(props);
     this.state = {
       isSideMenuOpen: true,
+      lang: null,
     }
   }
 
@@ -28,11 +30,25 @@ class App extends Component {
       isSideMenuOpen: !prevState.isSideMenuOpen
     }))
   }
+  changeLanguage = () => {
+    const lang = localStorage.getItem("lang");
+    this.setState({
+      lang: lang
+    })
+  }
 
-  render() {  
+  render() {
+    if (!localStorage.getItem("indexOfLesson")) {
+      localStorage.setItem("indexOfLesson", "0");
+    }
+    if (!localStorage.getItem("lang")) {
+      localStorage.setItem("lang", "pol");
+    }
+
     return (
       <Router>
         <div>
+          <Banner returnLanguage={this.changeLanguage} />
           <TopMenu closeSideMenu={this.closeSideMenu} />
 
           <main className="app-container">

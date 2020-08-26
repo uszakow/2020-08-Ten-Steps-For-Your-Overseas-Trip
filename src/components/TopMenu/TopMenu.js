@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 const TopMenu = (props) => {
     const { closeSideMenu } = props;
-
+    
     const indexOfLesson = JSON.parse(localStorage.getItem("indexOfLesson"));
 
     return (

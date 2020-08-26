@@ -1,0 +1,57 @@
+@import "../../variables";
+
+@font-face {
+    font-family: "Marck Script";
+    src: url("../Banner/fonts/MarckScript-Regular.ttf");
+}
+
+.banner-wrap {
+    font-family: "Marck Script";
+    font-size: 26px;
+    font-weight: 400;
+    display: flex;
+}
+.banner-content {
+    display: inline-flex;
+    position: relative;
+    margin: auto;
+}
+.banner-link {
+    display: inline-flex;
+    color: black;
+    background-color: #78b8d4;
+    text-decoration: none;
+    margin: auto;
+    min-height: 150px;
+    cursor: default;
+}
+.banner-text {
+    margin: 20px;
+}
+.banner-img {
+    display: none;
+}
+.banner-lang {
+    display: flex;
+    padding: 0;
+    border: 5px solid transparent;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    right: 0;    
+    cursor: pointer;
+    img {
+        border: 3px solid white;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: $sm) {
+    .banner-wrap {
+        font-size: 30px;
+    }
+    .banner-img {
+        height: 150px;
+        display: block;
+    }
+}

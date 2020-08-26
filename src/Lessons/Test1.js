@@ -12,7 +12,7 @@ const test1 = {
             type: "phrase",
             pol: "Cześć!",
             eng: "Hi!",
-            rus: "Привет!"
+            rus: "Привет!",
         },
         {
             type: "phrase",
