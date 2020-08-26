@@ -6,10 +6,12 @@ import { NavLink } from 'react-router-dom';
 const TopMenu = (props) => {
     const { closeSideMenu } = props;
 
+    const indexOfLesson = JSON.parse(localStorage.getItem("indexOfLesson"));
+
     return (
         <div className="topmenu-wrap">
             <NavLink
-                to="/10-steps/0"
+                to={`/10-steps/${indexOfLesson}`}
                 activeClassName="topmenu-item-active"
                 isActive={(match, location) => {
                     const isHere = (/\/10-steps\/\d+/.test(location.pathname));

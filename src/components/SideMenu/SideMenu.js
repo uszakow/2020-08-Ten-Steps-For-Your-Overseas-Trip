@@ -11,7 +11,7 @@ class SideMenu extends Component {
             isMobile: null,
         }
     }
-   
+
     isMobile = () => {
         this.setState({
             isMobile: window.innerWidth < 992
@@ -27,11 +27,7 @@ class SideMenu extends Component {
 
         const menu = this.state.isMobile ? "sidemenu-mobile" : "sidemenu-desctop";
         const hidden = isActive ? "sidemenu-mobile-active" : "sidemenu-mobile-hidden";
-
-        if (this.state.checkClose === false) {
-            this.closeMenu();
-        }
-
+    
         return (
             <div className={`sidemenu-wrap ${menu} ${hidden}`}>
                 {
@@ -40,10 +36,10 @@ class SideMenu extends Component {
                             key={index}
                             name={item.name}
                             index={index}
-                            closeMenu={this.activeMenu} />
+                            closeMenu={changeMenu} />
                     ))
                 }
-                < button className="sidemenu-control" onClick={changeMenu}>
+                <button className="sidemenu-control" onClick={changeMenu}>
                     <span />
                 </button >
             </div >
