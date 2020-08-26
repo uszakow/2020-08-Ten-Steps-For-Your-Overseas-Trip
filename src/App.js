@@ -14,24 +14,29 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      closeSideMenu: null,
+      isSideMenuOpen: true,
     }
   }
 
   closeSideMenu = () => {
     this.setState({
-      closeSideMenu: true
+      isSideMenuOpen: false
     })
   }
+  changeSideMenu = () => {
+    this.setState(prevState => ({
+      isSideMenuOpen: !prevState.isSideMenuOpen
+    }))
+  }
 
-  render() {
+  render() {  
     return (
       <Router>
         <div>
-          <TopMenu />
+          <TopMenu closeSideMenu={this.closeSideMenu} />
 
           <main className="app-container">
-            <SideMenu />
+            <SideMenu changeMenu={this.changeSideMenu} isActive={this.state.isSideMenuOpen} />
 
             <Switch>
               <Route exact path="/">

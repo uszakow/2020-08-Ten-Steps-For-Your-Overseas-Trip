@@ -8,31 +8,29 @@ class SideMenu extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            isActive: false,
             isMobile: null,
         }
     }
-
-    activeMenu = () => {
-        this.setState(prevState => ({
-            isActive: !prevState.isActive
-        }))
-    }
+   
     isMobile = () => {
         this.setState({
             isMobile: window.innerWidth < 992
         })
-    }   
+    }
 
     componentDidMount() {
         this.isMobile();
-        window.addEventListener("resize", this.isMobile);       
+        window.addEventListener("resize", this.isMobile);
     }
     render() {
+        const { changeMenu, isActive } = this.props;
+
         const menu = this.state.isMobile ? "sidemenu-mobile" : "sidemenu-desctop";
-        const hidden = this.state.isActive ? "sidemenu-mobile-hidden" : "sidemenu-mobile-active";
+        const hidden = isActive ? "sidemenu-mobile-active" : "sidemenu-mobile-hidden";
 
-
+        if (this.state.checkClose === false) {
+            this.closeMenu();
+        }
 
         return (
             <div className={`sidemenu-wrap ${menu} ${hidden}`}>
@@ -45,7 +43,7 @@ class SideMenu extends Component {
                             closeMenu={this.activeMenu} />
                     ))
                 }
-                < button className="sidemenu-control" onClick={this.activeMenu}>
+                < button className="sidemenu-control" onClick={changeMenu}>
                     <span />
                 </button >
             </div >
