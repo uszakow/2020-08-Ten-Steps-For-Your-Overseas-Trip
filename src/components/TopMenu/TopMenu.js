@@ -3,9 +3,24 @@ import './TopMenu.scss';
 
 import { NavLink } from 'react-router-dom';
 
+const items = {
+    steps: {
+        pol: "10 kroków",
+        eng: "10 steps"
+    },
+    howuse: {
+        pol: "jak korzystać",
+        eng: "how to use"
+    },
+    about: {
+        pol: "o mnie",
+        eng: "about me"
+    }
+}
+
 const TopMenu = (props) => {
-    const { closeSideMenu } = props;
-    
+    const { closeSideMenu, lang } = props;
+
     const indexOfLesson = JSON.parse(localStorage.getItem("indexOfLesson"));
 
     return (
@@ -16,15 +31,15 @@ const TopMenu = (props) => {
                 isActive={(match, location) => {
                     const isHere = (/\/10-steps\/\d+/.test(location.pathname));
                     return isHere;
-                }}>10 kroków</NavLink>
+                }}>{items.steps[lang]}</NavLink>
             <NavLink
                 to="/how-use"
                 activeClassName="topmenu-item-active"
-                onClick={closeSideMenu}>jak korzystać</NavLink>
+                onClick={closeSideMenu}>{items.howuse[lang]}</NavLink>
             <NavLink
                 to="/about-me"
                 activeClassName="topmenu-item-active"
-                onClick={closeSideMenu}>o mnie</NavLink>
+                onClick={closeSideMenu}>{items.about[lang]}</NavLink>
         </div >
     )
 }

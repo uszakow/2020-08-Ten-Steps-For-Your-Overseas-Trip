@@ -12,16 +12,17 @@
     display: flex;
 }
 .banner-content {
-    display: inline-flex;
+    display: flex;
     position: relative;
     margin: auto;
+    width: 100%;
+    max-width: $lg;
+    background-color: #78b8d4;
 }
 .banner-link {
-    display: inline-flex;
-    color: black;
-    background-color: #78b8d4;
+    display: flex;
+    color: black;    
     text-decoration: none;
-    margin: auto;
     min-height: 150px;
     cursor: default;
 }

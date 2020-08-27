@@ -23,11 +23,11 @@ class SideMenu extends Component {
         window.addEventListener("resize", this.isMobile);
     }
     render() {
-        const { changeMenu, isActive } = this.props;
+        const { changeMenu, isActive, lang } = this.props;
 
         const menu = this.state.isMobile ? "sidemenu-mobile" : "sidemenu-desctop";
         const hidden = isActive ? "sidemenu-mobile-active" : "sidemenu-mobile-hidden";
-    
+
         return (
             <div className={`sidemenu-wrap ${menu} ${hidden}`}>
                 {
@@ -36,7 +36,8 @@ class SideMenu extends Component {
                             key={index}
                             name={item.name}
                             index={index}
-                            closeMenu={changeMenu} />
+                            closeMenu={changeMenu}
+                            lang={lang} />
                     ))
                 }
                 <button className="sidemenu-control" onClick={changeMenu}>

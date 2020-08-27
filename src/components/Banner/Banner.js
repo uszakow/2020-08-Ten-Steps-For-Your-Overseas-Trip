@@ -12,10 +12,10 @@ const text = {
     eng: "Only ten steps before your overseas trip!",
 }
 
-const Banner = props => {
-    const lang = localStorage.getItem("lang");
+const Banner = props => {    
+    const lang = props.lang;
     const flag = (lang === "pol" ? polish : english);
-
+    
     const changeLanguage = lang => {        
         if (lang === "pol") {
             localStorage.setItem("lang", "eng");

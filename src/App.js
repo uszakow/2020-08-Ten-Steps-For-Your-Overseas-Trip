@@ -44,15 +44,16 @@ class App extends Component {
     if (!localStorage.getItem("lang")) {
       localStorage.setItem("lang", "pol");
     }
+    const lang = localStorage.getItem("lang");
 
     return (
       <Router>
         <div>
-          <Banner returnLanguage={this.changeLanguage} />
-          <TopMenu closeSideMenu={this.closeSideMenu} />
+          <Banner returnLanguage={this.changeLanguage} lang={lang} />
+          <TopMenu closeSideMenu={this.closeSideMenu} lang={lang} />
 
           <main className="app-container">
-            <SideMenu changeMenu={this.changeSideMenu} isActive={this.state.isSideMenuOpen} />
+            <SideMenu changeMenu={this.changeSideMenu} isActive={this.state.isSideMenuOpen} lang={lang} />
 
             <Switch>
               <Route exact path="/">

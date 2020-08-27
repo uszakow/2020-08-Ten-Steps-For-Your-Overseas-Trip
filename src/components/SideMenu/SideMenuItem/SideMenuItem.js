@@ -10,7 +10,7 @@ const SideMenuItem = props => {
     }
 
     const { index } = props;
-    const lang = localStorage.getItem("lang");
+    const lang = props.lang;
 
     return (
         <NavLink
