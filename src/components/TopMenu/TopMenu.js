@@ -24,7 +24,7 @@ const TopMenu = (props) => {
     const indexOfLesson = JSON.parse(localStorage.getItem("indexOfLesson"));
 
     return (
-        <div className="topmenu-wrap">
+        <nav className="topmenu-wrap">
             <NavLink
                 to={`/10-steps/${indexOfLesson}`}
                 activeClassName="topmenu-item-active"
@@ -40,7 +40,7 @@ const TopMenu = (props) => {
                 to="/about-me"
                 activeClassName="topmenu-item-active"
                 onClick={closeSideMenu}>{items.about[lang]}</NavLink>
-        </div >
+        </nav >
     )
 }
 

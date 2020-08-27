@@ -29,7 +29,7 @@ class SideMenu extends Component {
         const hidden = isActive ? "sidemenu-mobile-active" : "sidemenu-mobile-hidden";
 
         return (
-            <div className={`sidemenu-wrap ${menu} ${hidden}`}>
+            <nav className={`sidemenu-wrap ${menu} ${hidden}`}>
                 {
                     lessons.map((item, index) => (
                         <SideMenuItem
@@ -43,7 +43,7 @@ class SideMenu extends Component {
                 <button className="sidemenu-control" onClick={changeMenu}>
                     <span />
                 </button >
-            </div >
+            </nav >
         )
     }
 }

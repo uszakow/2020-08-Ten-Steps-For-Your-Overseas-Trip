@@ -10,12 +10,13 @@ import {
 import Banner from './components/Banner/Banner';
 import TopMenu from './components/TopMenu/TopMenu';
 import SideMenu from './components/SideMenu/SideMenu';
+import Footer from './components/Footer/Footer';
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isSideMenuOpen: true,
+      isSideMenuOpen: false,
       lang: null,
     }
   }
@@ -48,7 +49,7 @@ class App extends Component {
 
     return (
       <Router>
-        <div>
+        <div className="app-wrap">
           <Banner returnLanguage={this.changeLanguage} lang={lang} />
           <TopMenu closeSideMenu={this.closeSideMenu} lang={lang} />
 
@@ -94,6 +95,8 @@ class App extends Component {
               </Route>
             </Switch>
           </main>
+
+          <Footer lang={lang} />
         </div>
       </Router >
     );
