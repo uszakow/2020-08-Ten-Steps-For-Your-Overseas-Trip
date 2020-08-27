@@ -11,6 +11,7 @@ import Banner from './components/Banner/Banner';
 import TopMenu from './components/TopMenu/TopMenu';
 import SideMenu from './components/SideMenu/SideMenu';
 import Footer from './components/Footer/Footer';
+import ButtonUp from './components/ButtonUp/ButtonUp';
 
 class App extends Component {
   constructor(props) {
@@ -97,6 +98,7 @@ class App extends Component {
           </main>
 
           <Footer lang={lang} />
+          <ButtonUp />
         </div>
       </Router >
     );
