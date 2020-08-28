@@ -2,7 +2,7 @@ import React from 'react';
 import './LessonPhrases.scss';
 
 const LessonPhrases = props => {
-    const { phrases, lang } = props;
+    const { phrases, lang, playAudio } = props;
 
     return (
         <>
@@ -23,10 +23,10 @@ const LessonPhrases = props => {
                             {(css === "lesson-phrases-add") ? "\u2043 " : ""}
                             {item[lang]}
                         </span>
-                        <button>
+                        <button onClick={() => playAudio(item.audio)}>
                             {(css === "lesson-phrases-add") ? "\u2043 " : ""}
                             {item.rus}
-                        </button>                        
+                        </button>
                     </div>
                 )
             })}

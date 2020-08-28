@@ -10,7 +10,23 @@ class Lesson extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            audio: null,
+        }
+    }
 
+    playAudio = sound => {
+        //Funkcja zapisuje audio do state. Jeżeli jest wykonywane poprzednie audio, to zatrzymuje się. Audio ze state zapisuje się do zmiennej, na skutek czego można zmieniać tempo wykonania. Wreszcie audio wykonuje się z potrzebnymi parametrami.
+        if (sound) {
+            if (this.state.audio) {
+                this.state.audio.pause();
+            }
+            this.setState({
+                audio: new Audio(sound)
+            }, () => {
+                const audio = this.state.audio;
+                // audio.playbackRate = 0.5;
+                audio.play()
+            });
         }
     }
 
@@ -25,7 +41,8 @@ class Lesson extends Component {
             <div className="lesson-wrap">
                 <LessonTitle title={lesson.title} lang={lang} />
                 {(lesson.phrases) ?
-                    <LessonPhrases phrases={lesson.phrases} lang={lang} /> :
+                    <LessonPhrases phrases={lesson.phrases} lang={lang}
+                        playAudio={this.playAudio} /> :
                     null
                 }
                 {
