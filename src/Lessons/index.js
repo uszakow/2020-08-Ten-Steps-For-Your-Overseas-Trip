@@ -1,5 +1,5 @@
-import test1 from "./Test1";
-import test2 from "./Test2";
+import test1 from "./lessonTest1/Test1";
+import test2 from "./lessonTest2/Test2";
 
 const lessons = [
     test1,

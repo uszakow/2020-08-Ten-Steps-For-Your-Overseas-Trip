@@ -10,6 +10,7 @@ import {
 import Banner from './components/Banner/Banner';
 import TopMenu from './components/TopMenu/TopMenu';
 import SideMenu from './components/SideMenu/SideMenu';
+import Lesson from './components/Lesson/Lesson';
 import Footer from './components/Footer/Footer';
 import ButtonUp from './components/ButtonUp/ButtonUp';
 
@@ -54,48 +55,28 @@ class App extends Component {
           <Banner returnLanguage={this.changeLanguage} lang={lang} />
           <TopMenu closeSideMenu={this.closeSideMenu} lang={lang} />
 
-          <main className="app-container">
+          <div className="app-container">
             <SideMenu changeMenu={this.changeSideMenu} isActive={this.state.isSideMenuOpen} lang={lang} />
 
-            <Switch>
-              <Route exact path="/">
-                <h1>Home</h1>
-              </Route>
-              <Route path="/10-steps/:index">
-                <div>
-                  <h1>10 steps</h1>
-                  <div>dafads</div>
-                  <div>dafads</div>
-                  <div>dafads</div>
-                  <div>dafads</div>
-                  <div>dafads</div>
-                  <div>dafads</div>
-                  <div>dafads</div>
-                  <div>dafads</div>
-                  <div>dafads</div>
-                  <div>dafads</div>
-                  <div>dafads</div>
-                  <div>dafads</div>
-                  <div>dafads</div>
-                  <div>dafads</div>
-                  <div>dafads</div>
-                  <div>dafads</div>
-                  <div>dafads</div>
-                  <div>dafads</div>
-                  <div>dafads</div>
-                </div>
-              </Route>
-              <Route path="/how-use">
-                <h1>Jak korzystać z programu</h1>
-              </Route>
-              <Route path="/about-me">
-                <h1>O mnie</h1>
-              </Route>
-              <Route>
-                <h1>Strona 404</h1>
-              </Route>
-            </Switch>
-          </main>
+            <main className="app-main">
+              <Switch>
+                <Route exact path="/">
+                  <h1>Home</h1>
+                </Route>
+                {/* <Route path="/10-steps/:index" component={Lesson} /> */}
+                <Route path="/10-steps/:index" render={props => <Lesson lang={lang} {...props} />} />
+                <Route path="/how-use">
+                  <h1>Jak korzystać z programu</h1>
+                </Route>
+                <Route path="/about-me">
+                  <h1>O mnie</h1>
+                </Route>
+                <Route>
+                  <h1>Strona 404</h1>
+                </Route>
+              </Switch>
+            </main>
+          </div>
 
           <Footer lang={lang} />
           <ButtonUp />

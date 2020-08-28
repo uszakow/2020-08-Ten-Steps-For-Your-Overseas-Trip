@@ -1,10 +1,5 @@
 @import "../../variables";
 
-@font-face {
-    font-family: "Marck Script";
-    src: url("../Banner/fonts/MarckScript-Regular.ttf");
-}
-
 .banner-wrap {
     font-family: "Marck Script";
     font-size: 26px;
@@ -35,7 +30,7 @@
 
 @media (min-width: $sm) {
     .banner-wrap {
-        font-size: 30px;
+        font-size: 32px;
     }
     .banner-img {
         height: 150px;

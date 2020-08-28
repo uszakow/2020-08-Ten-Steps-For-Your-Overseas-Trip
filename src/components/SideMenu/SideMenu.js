@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './SideMenu.scss';
 
-import lessons from './../../Lessons';
+import lessons from './../../lessons';
 import SideMenuItem from './SideMenuItem/SideMenuItem';
 
 class SideMenu extends Component {
