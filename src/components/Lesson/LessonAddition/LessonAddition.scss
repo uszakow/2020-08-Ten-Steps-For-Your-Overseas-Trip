@@ -1,0 +1,15 @@
+@import "./../../../variables";
+
+.lesson-addition{
+    font-size: 16px;
+}
+.lesson-addition-img {
+    display: none;
+
+    @media (min-width: $sm) {
+        display: block;
+        height: 100px;
+        float: left;
+        margin-right: 10px;
+    }
+}

@@ -5,6 +5,8 @@ import lessons from './../../lessons';
 
 import LessonTitle from './LessonTitle/LessonTitle';
 import LessonPhrases from './LessonPhrases/LessonPhrases';
+import LessonDialogue from './LessonDialogue/LessonDialogue';
+import LessonAddition from './LessonAddition/LessonAddition';
 
 class Lesson extends Component {
     constructor(props) {
@@ -41,13 +43,35 @@ class Lesson extends Component {
             <div className="lesson-wrap">
                 <LessonTitle title={lesson.title} lang={lang} />
                 {(lesson.phrases) ?
-                    <LessonPhrases phrases={lesson.phrases} lang={lang}
+                    <LessonPhrases
+                        phrases={lesson.phrases}
+                        lang={lang}
                         playAudio={this.playAudio} /> :
                     null
                 }
                 {
-                    (lesson.phrases && lesson.dialogue) ?
+                    (lesson.phrases && (lesson.dialogue || lesson.addition)) ?
                         <div className="lesson-line" /> :
+                        null
+                }
+                {
+                    (lesson.dialogue) ?
+                        <LessonDialogue
+                            dialogue={lesson.dialogue}
+                            lang={lang}
+                            playAudio={this.playAudio} /> :
+                        null
+                }
+                {
+                    (lesson.dialogue && lesson.addition) ?
+                        <div className="lesson-line" /> :
+                        null
+                }
+                {
+                    (lesson.addition) ?
+                        <LessonAddition
+                            addition={lesson.addition}
+                            lang={lang} /> :
                         null
                 }
             </div>

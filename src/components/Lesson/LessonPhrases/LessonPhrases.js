@@ -20,11 +20,11 @@ const LessonPhrases = props => {
                             <img src={item.img} alt={item.alt} className="lesson-phrases-img" /> :
                             <span className="lesson-phrases-img" />}
                         <span>
-                            {(css === "lesson-phrases-add") ? "\u2043 " : ""}
+                            {(css === "lesson-phrases-add") ? "\u2013 " : ""}
                             {item[lang]}
                         </span>
-                        <button onClick={() => playAudio(item.audio)}>
-                            {(css === "lesson-phrases-add") ? "\u2043 " : ""}
+                        <button className="lesson-button" onClick={() => playAudio(item.audio)}>
+                            {(css === "lesson-phrases-add") ? "\u2013 " : ""}
                             {item.rus}
                         </button>
                     </div>
