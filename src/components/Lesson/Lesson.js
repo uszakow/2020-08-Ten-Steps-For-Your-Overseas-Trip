@@ -3,6 +3,7 @@ import './Lesson.scss';
 
 import lessons from './../../lessons';
 
+import LessonAudioController from './LessonAudioController/LessonAudioController';
 import LessonTitle from './LessonTitle/LessonTitle';
 import LessonPhrases from './LessonPhrases/LessonPhrases';
 import LessonDialogue from './LessonDialogue/LessonDialogue';
@@ -12,12 +13,15 @@ class Lesson extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            audio: null,
+            audio: null
         }
     }
 
     playAudio = sound => {
-        //Funkcja zapisuje audio do state. Jeżeli jest wykonywane poprzednie audio, to zatrzymuje się. Audio ze state zapisuje się do zmiennej, na skutek czego można zmieniać tempo wykonania. Wreszcie audio wykonuje się z potrzebnymi parametrami.
+        //Tempo audio bierze się z sessionStorage. Jeżeli znaczenia nie ma, to zostaje ustalone jako 1 przy renderowaniu komponentu.
+        const audioSpeed = JSON.parse(sessionStorage.getItem("audioSpeed"));
+
+        //Funkcja zapisuje audio do state. Jeżeli jest wykonywane poprzednie audio, to zatrzymuje się. Audio ze state zapisuje się do zmiennej. Wreszcie audio wykonuje się w ustalonym poprzednio tempie.
         if (sound) {
             if (this.state.audio) {
                 this.state.audio.pause();
@@ -26,13 +30,17 @@ class Lesson extends Component {
                 audio: new Audio(sound)
             }, () => {
                 const audio = this.state.audio;
-                // audio.playbackRate = 0.5;
+                audio.playbackRate = audioSpeed;
                 audio.play()
             });
         }
-    }
+    }   
 
     render() {
+        if (!sessionStorage.getItem("audioSpeed")) {
+            sessionStorage.setItem("audioSpeed", "1");
+        }
+
         const indexOfLesson = this.props.match.params.index;
         const lesson = lessons[indexOfLesson];
         const lang = this.props.lang;
@@ -41,6 +49,7 @@ class Lesson extends Component {
 
         return (
             <div className="lesson-wrap">
+                <LessonAudioController />
                 <LessonTitle title={lesson.title} lang={lang} />
                 {(lesson.phrases) ?
                     <LessonPhrases
