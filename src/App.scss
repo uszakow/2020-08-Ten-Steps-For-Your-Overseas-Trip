@@ -12,8 +12,10 @@
 .app-container {
     display: flex;
     flex-grow: 1;
+    overflow: hidden;
 }
 .app-main {
+    position: relative;
     max-width: $lg;
     margin: 0 16px 20px;
     flex-grow: 1;    

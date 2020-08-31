@@ -1,0 +1,70 @@
+@import "../../../variables";
+
+.lesson-audiocontroller-wrap {
+    position: absolute;
+    border: 1px solid black;
+    background-color: $grey-dark;
+    display: flex;    
+    input {
+        display: none;
+    }
+    label {
+        font-size: 16px;
+        font-weight: 600;
+        width: 52px;
+        height: 52px;
+        background-color: white;
+        line-height: 36px;
+        text-align: center;
+        border-width: 5px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 26px;
+        margin: 5px;
+    }
+    input[type="radio"]:checked + label {
+        color: white;
+        background-color: black;
+        border-color: white;
+    }
+}
+.lesson-audiocontroller-mobile {
+    padding-right: 10px; 
+    border-right: none;
+    border-radius: 32px 0 0 32px;
+    .lesson-audiocontroller-control {
+        position: relative;
+        margin: 5px 5px 5px 0;
+        background-color: transparent;
+        padding: 0;
+        border: 0;
+        cursor: pointer;
+        div {
+            position: relative;
+            border: 20px solid transparent;
+        }
+    }
+}
+.lesson-audiocontroller-mobile.lesson-audiocontroller-hidden {
+    transition: 0.7s;
+    right: -210px;
+    div {
+        right: 0px;
+        border-right-color: black;
+    }
+}
+.lesson-audiocontroller-mobile.lesson-audiocontroller-active {
+    transition: 0.7s;
+    right: -16px;    
+    div {
+        left: 20px;
+        border-left-color: black;
+    }
+}
+.lesson-audiocontroller-desctop {   
+    border-radius: 32px;
+    right: 0;
+    .lesson-audiocontroller-control {        
+        display: none;
+    }
+}

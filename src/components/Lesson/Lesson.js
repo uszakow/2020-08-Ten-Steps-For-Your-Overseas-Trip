@@ -34,7 +34,7 @@ class Lesson extends Component {
                 audio.play()
             });
         }
-    }   
+    }
 
     render() {
         if (!sessionStorage.getItem("audioSpeed")) {
@@ -43,13 +43,11 @@ class Lesson extends Component {
 
         const indexOfLesson = this.props.match.params.index;
         const lesson = lessons[indexOfLesson];
-        const lang = this.props.lang;
-
-        // console.log(lesson)
+        const { lang, isMobile } = this.props;
 
         return (
             <div className="lesson-wrap">
-                <LessonAudioController />
+                <LessonAudioController isMobile={isMobile} />
                 <LessonTitle title={lesson.title} lang={lang} />
                 {(lesson.phrases) ?
                     <LessonPhrases

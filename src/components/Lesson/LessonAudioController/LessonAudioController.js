@@ -17,12 +17,23 @@ class LessonAudioController extends Component {
             audioSpeed: audioSpeed
         })
     }
+    changeAudioConstroller = () => {
+        this.setState(prevState => ({
+            isOpen: !prevState.isOpen
+        }))
+    }
 
     render() {
+        const isMobile = this.props.isMobile;
+        const isOpen = this.state.isOpen;
+
+        const view = isMobile ? "lesson-audiocontroller-mobile" : "lesson-audiocontroller-desctop";
+        const hidden = isOpen ? "lesson-audiocontroller-active" : "lesson-audiocontroller-hidden";
+
         return (
-            <div>
-                <button>
-                    <span />
+            <div className={`lesson-audiocontroller-wrap ${view} ${hidden}`}>
+                <button className="lesson-audiocontroller-control" onClick={this.changeAudioConstroller}>
+                    <div />
                 </button>
                 <input
                     id="controller1"

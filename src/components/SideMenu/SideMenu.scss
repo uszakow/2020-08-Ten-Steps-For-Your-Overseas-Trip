@@ -12,6 +12,8 @@
 
 .sidemenu-mobile {
     border: 1px solid black;
+    position: absolute;
+    z-index: 1;
     .sidemenu-control {
         width: 40px;
         height: 40px;
@@ -47,7 +49,6 @@
     }
 }
 .sidemenu-mobile.sidemenu-mobile-hidden {
-    position: absolute;
     transition: 0.7s;
     left: -255px;
     .sidemenu-control {
@@ -73,7 +74,6 @@
     }
 }
 .sidemenu-mobile.sidemenu-mobile-active {
-    position: absolute;
     transition: 0.7s;
     left: 0;
     .sidemenu-control {
