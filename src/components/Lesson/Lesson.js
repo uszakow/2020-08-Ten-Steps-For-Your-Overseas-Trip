@@ -13,13 +13,23 @@ class Lesson extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            audio: null
+            audio: null,
+            audioSpeed: '1'
         }
     }
 
+    getAudioSpeed = () => {
+        //Funkcja sprawdza tempo, zapisane w sessionStorage.
+        const audioSpeed = sessionStorage.getItem("audioSpeed");
+        if (audioSpeed === '0.5' || audioSpeed === '0.75' || audioSpeed === '1') {
+            this.setState({
+                audioSpeed: audioSpeed
+            })
+        }        
+    }
     playAudio = sound => {
-        //Tempo audio bierze się z sessionStorage. Jeżeli znaczenia nie ma, to zostaje ustalone jako 1 przy renderowaniu komponentu.
-        const audioSpeed = JSON.parse(sessionStorage.getItem("audioSpeed"));
+        //Tempo audio bierze się z sessionStorage. Jeżeli znaczenia nie ma, to zostaje ustalone jako 1.       
+        const audioSpeed = this.state.audioSpeed;
 
         //Funkcja zapisuje audio do state. Jeżeli jest wykonywane poprzednie audio, to zatrzymuje się. Audio ze state zapisuje się do zmiennej. Wreszcie audio wykonuje się w ustalonym poprzednio tempie.
         if (sound) {
@@ -36,18 +46,21 @@ class Lesson extends Component {
         }
     }
 
+    componentDidMount() {
+        this.getAudioSpeed();
+    }
     render() {
-        if (!sessionStorage.getItem("audioSpeed")) {
-            sessionStorage.setItem("audioSpeed", "1");
-        }
-
         const indexOfLesson = this.props.match.params.index;
         const lesson = lessons[indexOfLesson];
         const { lang, isMobile } = this.props;
+        const { audioSpeed } = this.state;
 
         return (
             <div className="lesson-wrap">
-                <LessonAudioController isMobile={isMobile} />
+                <LessonAudioController
+                    getAudioSpeed={this.getAudioSpeed}
+                    audioSpeed={audioSpeed}
+                    isMobile={isMobile} />
                 <LessonTitle title={lesson.title} lang={lang} />
                 {(lesson.phrases) ?
                     <LessonPhrases

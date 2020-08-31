@@ -17,6 +17,10 @@
     border-radius: 30px;
     cursor: pointer;
 }
+.lesson-button:active {    
+    color: black;
+    border-color: black;
+}
 
 @media (min-width: $sm) {
     .lesson-wrap {
