@@ -79,8 +79,7 @@ class App extends Component {
               <Switch>
                 <Route exact path="/">
                   <h1>Home</h1>
-                </Route>
-                {/* <Route path="/10-steps/:index" component={Lesson} /> */}
+                </Route>               
                 <Route path="/10-steps/:index" render={props => <Lesson lang={lang} isMobile={isMobileLesson} {...props} />} />
                 <Route path="/how-use">
                   <h1>Jak korzystać z programu</h1>

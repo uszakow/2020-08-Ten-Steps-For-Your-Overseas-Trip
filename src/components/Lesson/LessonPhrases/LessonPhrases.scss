@@ -8,13 +8,15 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-items: start;
+    button{
+        margin-left: 10px;
+    }  
     .lesson-phrases-img {
         display: none;
     }    
 }
 .lesson-phrases-add {
-    span,
-    button {
+    span {
         margin-left: 10px;
     }
 }
