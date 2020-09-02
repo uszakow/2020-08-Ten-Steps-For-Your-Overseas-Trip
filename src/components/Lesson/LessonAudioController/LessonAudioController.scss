@@ -1,6 +1,6 @@
 @import "../../../variables";
 
-.lesson-audiocontroller-wrap {
+.lesson-audiocontroller-wrap {   
     position: absolute;
     border: 1px solid black;
     background-color: $grey-dark;
@@ -14,13 +14,14 @@
         width: 52px;
         height: 52px;
         background-color: white;
-        line-height: 36px;
+        line-height: 38px;
         text-align: center;
         border-width: 5px;
         border-style: solid;
         border-color: black;
         border-radius: 26px;
         margin: 5px;
+        cursor: pointer;
     }
     input[type="radio"]:checked + label {
         color: white;

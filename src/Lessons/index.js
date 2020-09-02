@@ -1,11 +1,9 @@
-import test1 from "./lessonTest1/Test1";
-import test2 from "./lessonTest2/Test2";
+import cyrillic from "./cyrillic/cyrillic";
+import step1 from "./step1/step1";
 
 const lessons = [
-    test1,
-    test2,
-    test1,
-    test2
+    cyrillic,
+    step1,
 ]
 
 export default lessons;
