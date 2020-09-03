@@ -1,13 +1,10 @@
 import airport from './audio/phrases/Airport.mp3';
 import bank from './audio/phrases/Bank.mp3';
-import bar from './audio/phrases/Bar.mp3';
 import bus from './audio/phrases/Bus.mp3';
 import busstation from './audio/phrases/Bus station.mp3';
 import bymarshrutka from './audio/phrases/By marshrutka.mp3';
 import bytram from './audio/phrases/By tram.mp3';
-import cafe from './audio/phrases/Cafe.mp3';
 import cashmachine from './audio/phrases/Cash machine.mp3';
-import castle from './audio/phrases/Castle.mp3';
 import center from './audio/phrases/Center.mp3';
 import centralsquare from './audio/phrases/Central square.mp3';
 import consulate from './audio/phrases/Consulate of Poland.mp3';
@@ -25,7 +22,6 @@ import howcaniget from './audio/phrases/How can I get.mp3';
 import howtogettothecitycenter from './audio/phrases/How to get to the city center.mp3';
 import marshrutka from './audio/phrases/Marshrutka.mp3';
 import marshrutkastop from './audio/phrases/Marszrutka stop.mp3';
-import museum from './audio/phrases/Museum.mp3';
 import nextdoor from './audio/phrases/Next door.mp3';
 import oldtown from './audio/phrases/Old town.mp3';
 import onfoot from './audio/phrases/On foot.mp3';
@@ -35,8 +31,6 @@ import pleasetellme from './audio/phrases/Please tell me.mp3';
 import police from './audio/phrases/Police.mp3';
 import postoffice from './audio/phrases/Post office.mp3';
 import railwaystation from './audio/phrases/Railway station.mp3';
-import restaurant from './audio/phrases/Restaurant.mp3';
-import restaurantofnationalcuisine from './audio/phrases/Restaurant of national cuisine.mp3';
 import shop from './audio/phrases/Shop.mp3';
 import station from './audio/phrases/Station.mp3';
 import stop from './audio/phrases/Stop.mp3';
@@ -44,7 +38,6 @@ import suburbtrain from './audio/phrases/Suburb train.mp3';
 import subway from './audio/phrases/Subway.mp3';
 import subwaystation from './audio/phrases/Subway station.mp3';
 import taxi from './audio/phrases/Taxi.mp3';
-import theater from './audio/phrases/Theater.mp3';
 import threestopsbymarshrutka from './audio/phrases/Three stops by marshrutka.mp3';
 import ticket from './audio/phrases/Ticket.mp3';
 import tothehostel from './audio/phrases/To the hostel.mp3';
@@ -52,6 +45,7 @@ import tothemetro from './audio/phrases/To the metro.mp3';
 import totheoldtown from './audio/phrases/To the Old town.mp3';
 import totherailwaystation from './audio/phrases/To the railway station.mp3';
 import tovladimirskayastreet from './audio/phrases/To Vladimirskaya street.mp3';
+import toilet from './audio/phrases/Toilet.mp3';
 import train from './audio/phrases/Train.mp3';
 import tram from './audio/phrases/Tram.mp3';
 import tramstation from './audio/phrases/Tram station.mp3';
@@ -87,10 +81,8 @@ import imgbank from './img/bank.png';
 import imgbus from './img/bus.png';
 import imgbusstation from './img/busstation.png';
 import imgcashmashine from './img/cashmashine.png';
-import imgcastle from './img/castle.png';
 import imgcenter from './img/center.png';
 import imgmarshrutka from './img/marshrutka.png';
-import imgmuseum from './img/museum.png';
 import imgoldtown from './img/oldtown.png';
 import imgplane from './img/plane.png';
 import imgpostoffice from './img/postoffice.png';
@@ -99,7 +91,7 @@ import imgsquare from './img/square.png';
 import imgstop from './img/stop.png';
 import imgstreet from './img/street.png';
 import imgsubway from './img/subway.png';
-import imgtheatre from './img/theatre.png';
+import imgtoilet from './img/toilet.png';
 import imgtrain from './img/train.png';
 import imgtrainstation from './img/trainstation.png';
 import imgtram from './img/tram.png';
@@ -142,6 +134,15 @@ const step2 = {
             audio: hotel,
             img: null,
             alt: null
+        },
+        {
+            type: "add",
+            pol: "toaleta",
+            eng: "toilet",
+            rus: "туалет",
+            audio: toilet,
+            img: imgtoilet,
+            alt: "toilet"
         },
         {
             type: "add",
@@ -205,33 +206,6 @@ const step2 = {
             audio: oldtown,
             img: imgoldtown,
             alt: "Old town"
-        },
-        {
-            type: "add",
-            pol: "zamek",
-            eng: "castle",
-            rus: "замок",
-            audio: castle,
-            img: imgcastle,
-            alt: "castle"
-        },
-        {
-            type: "add",
-            pol: "kawiarnia",
-            eng: "cafe",
-            rus: "кафе",
-            audio: cafe,
-            img: null,
-            alt: null
-        },
-        {
-            type: "add",
-            pol: "bar",
-            eng: "bar",
-            rus: "бар",
-            audio: bar,
-            img: null,
-            alt: null
         },
         {
             type: "add",
@@ -302,42 +276,6 @@ const step2 = {
             eng: "airport",
             rus: "аэропорт",
             audio: airport,
-            img: null,
-            alt: null
-        },
-        {
-            type: "add",
-            pol: "muzeum",
-            eng: "museum",
-            rus: "музей",
-            audio: museum,
-            img: imgmuseum,
-            alt: "museum"
-        },
-        {
-            type: "add",
-            pol: "teatr",
-            eng: "theater",
-            rus: "театр",
-            audio: theater,
-            img: imgtheatre,
-            alt: "theatre"
-        },
-        {
-            type: "add",
-            pol: "restauracja",
-            eng: "restaurant",
-            rus: "ресторан",
-            audio: restaurant,
-            img: null,
-            alt: null
-        },
-        {
-            type: "add",
-            pol: "restauracja z kuchnią narodową",
-            eng: "restaurant of national cuisine",
-            rus: "ресторан национальной кухни",
-            audio: restaurantofnationalcuisine,
             img: null,
             alt: null
         },

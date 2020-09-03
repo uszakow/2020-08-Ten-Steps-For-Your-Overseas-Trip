@@ -21,7 +21,7 @@ const stepX = {
         },
         {
             type: "add",
-            pol: "",
+            pol: "\u{0022}",
             eng: "",
             rus: "",
             audio: null,

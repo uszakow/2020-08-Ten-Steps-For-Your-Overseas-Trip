@@ -9,8 +9,8 @@ const LessonDialogue = props => {
         <>
             {dialogue.map((item, index) => (
                 <div key={index} className="lesson-dialogue">
-                    <span>
-                        {item.name ? `${item[name]}: ` : "\u2013 "}
+                    <span>                       
+                        {item[name] ? `${item[name]}: ` : "\u2013 "}
                         {item[lang]}
                     </span>
                     <button className="lesson-button" onClick={() => playAudio(item.audio)}>
