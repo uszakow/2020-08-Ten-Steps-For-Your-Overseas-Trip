@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/uszakow/2020-08-Ten-Steps-For-Your-Overseas-Trip/precache-manifest.b51ef8857ca9ff837879a467dfdd0854.js"
+  "/2020-08-Ten-Steps-For-Your-Overseas-Trip/precache-manifest.7d171f84b234d688a0b9bf42ff17432e.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/uszakow/2020-08-Ten-Steps-For-Your-Overseas-Trip/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/2020-08-Ten-Steps-For-Your-Overseas-Trip/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
