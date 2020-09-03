@@ -493,7 +493,15 @@ const step1 = {
             rus: "Всё в порядке. Проходите.",
             audio: l21
         },
-    ],   
+    ],
+    addition: [
+        {
+            pol: "Forma grzecznościowa w języku rosyjskim buduje się w liczbie mnogiej drugiej osoby – na podstawie zaimka \u{0022}Вы\u{0022}. Stanowi to poważną różnicę z językiem polskim, gdzie forma grzecznościowa buduje się w liczbie pojedynczej trzeciej osoby – Pan/Pani. Dosłownie zdanie \u{0022}Czy mógłby Pan mi pomóc?\u{0022} będzie takie: \u{0022}Czy moglibyście Wy mi pomóc?\u{0022}",
+            eng: "The polite form of address in Russian is built in the plural of the second person - on the basis of the pronoun \u{0022}Вы\u{0022} (you). So the same as in English.",
+            img: null,
+            alt: null
+        },
+    ]
 }
 
 export default step1;

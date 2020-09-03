@@ -67,11 +67,16 @@ import l17 from './audio/dialogue/L17.mp3';
 
 import imgaddress from './img/address.png';
 import imgcastle from './img/castle.png';
+import imgelevator from './img/elevator.png';
+import imgforest from './img/forest.png';
+import imgkitchen from './img/kitchen.png';
 import imgmuseum from './img/museum.png';
 import imgpark from './img/park.png';
 import imgrefrigerator from './img/refrigerator.png';
 import imgshower from './img/shower.png';
+import imgstairs from './img/stairs.png';
 import imgtheatre from './img/theatre.png';
+import imgthirdfloor from './img/thirdfloor.png';
 
 const step3 = {
     name: {
@@ -208,8 +213,8 @@ const step3 = {
             eng: "stairs",
             rus: "лестница",
             audio: stairs,
-            img: null,
-            alt: null
+            img: imgstairs,
+            alt: "stairs"
         },
         {
             type: "phrase",
@@ -217,8 +222,8 @@ const step3 = {
             eng: "elevator",
             rus: "лифт",
             audio: elevator,
-            img: null,
-            alt: null
+            img: imgelevator,
+            alt: "elevator"
         },
         {
             type: "phrase",
@@ -226,8 +231,8 @@ const step3 = {
             eng: "third floor",
             rus: "третий этаж",
             audio: thirdfloor,
-            img: null,
-            alt: null
+            img: imgthirdfloor,
+            alt: "third floor"
         },
         {
             type: "phrase",
@@ -271,8 +276,8 @@ const step3 = {
             eng: "kitchen",
             rus: "кухня",
             audio: kitchen,
-            img: null,
-            alt: null
+            img: imgkitchen,
+            alt: "kitchen"
         },
         {
             type: "phrase",
@@ -442,8 +447,8 @@ const step3 = {
             eng: "forest",
             rus: "лес",
             audio: forest,
-            img: null,
-            alt: null
+            img: imgforest,
+            alt: "forest"
         },
         {
             type: "phrase",
@@ -658,8 +663,8 @@ const step3 = {
     ],
     addition: [
         {
-            pol: "",
-            eng: "",
+            pol: "W rosyjskojęzycznych krajach piętra liczą zaczynając od pierwszego. Parter to będzie pierwsze piętro, pierwsze piętro to będzie drugie piętro i tak dalej. Olek otrzymał pokój na  trzecim piętrze, czyli w Polsce to byłoby drugie piętro.",
+            eng: "In Russian-speaking countries, floors are counted from the first. The ground floor will be the first floor, the first floor will be the second floor, and so on. Olek got a room on the third floor, so in Poland it would be the second floor.",
             img: null,
             alt: null
         },
