@@ -60,7 +60,6 @@ import imgmickiewiczmonument from './img/mickiewiczmonument.png';
 import imgstatue from './img/statue.png';
 import imgvictorymonument from './img/victorymonument.png';
 import imgzoo from './img/zoo.png';
-import { memo } from 'react';
 
 const step4 = {
     name: {
