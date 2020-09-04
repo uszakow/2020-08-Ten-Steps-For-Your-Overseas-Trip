@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import './App.scss';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
-  Route
+  Route,
+  Redirect
 } from 'react-router-dom';
 
 import Banner from './components/Banner/Banner';
@@ -77,9 +78,11 @@ class App extends Component {
 
             <main className="app-main">
               <Switch>
+                <Redirect from="/https://uszakow.github.io/2020-08-Ten-Steps-For-Your-Overseas-Trip/" to="https://uszakow.github.io/" />
+                <Redirect from="/index.html" to="/" />
                 <Route exact path="/">
                   <h1>Home</h1>
-                </Route>               
+                </Route>
                 <Route path="/10-steps/:index" render={props => <Lesson lang={lang} isMobile={isMobileLesson} {...props} />} />
                 <Route path="/how-use">
                   <h1>Jak korzystać z programu</h1>
