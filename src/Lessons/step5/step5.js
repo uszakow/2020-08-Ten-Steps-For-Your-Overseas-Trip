@@ -377,7 +377,7 @@ const step5 = {
         },
         {
             type: "phrase",
-            pol: "Sklem jest przez ulicę.",
+            pol: "Sklep jest przez ulicę.",
             eng: "The shop is across the street.",
             rus: "Магазин через дорогу.",
             audio: theshopisacrossthestreet,

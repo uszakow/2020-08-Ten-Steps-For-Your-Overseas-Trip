@@ -1,3 +1,40 @@
+import additionalservice from './audio/phrases/Additional service.mp3';
+import bedlinen from './audio/phrases/Bed linen.mp3';
+import bottomshelf from './audio/phrases/Bottom shelf.mp3';
+import childticket from './audio/phrases/Child ticket.mp3';
+import discountticket from './audio/phrases/Discount ticket.mp3';
+import fullticket from './audio/phrases/Full ticket.mp3';
+import kupewagon from './audio/phrases/Kupe wagon.mp3';
+import payforbedlinen from './audio/phrases/Pay for bed linen.mp3';
+import payfortea from './audio/phrases/Pay for tea.mp3';
+import plackartwagon from './audio/phrases/Plackart wagon.mp3';
+import sideshelf from './audio/phrases/Side shelf.mp3';
+import threerublesandfiverubles from './audio/phrases/Three rubles and five rubles.mp3';
+import topshelf from './audio/phrases/Top shelf.mp3';
+import total from './audio/phrases/Total.mp3';
+import youcanadditionally from './audio/phrases/You can additionally.mp3';
+import youshouldpay15rubles from './audio/phrases/You should pay 15 rubles.mp3';
+
+import l1 from './audio/dialogue/L1.mp3';
+import l2 from './audio/dialogue/L2.mp3';
+import l3 from './audio/dialogue/L3.mp3';
+import l4 from './audio/dialogue/L4.mp3';
+import l5 from './audio/dialogue/L5.mp3';
+import l6 from './audio/dialogue/L6.mp3';
+import l7 from './audio/dialogue/L7.mp3';
+import l8 from './audio/dialogue/L8.mp3';
+import l9 from './audio/dialogue/L9.mp3';
+import l10 from './audio/dialogue/L10.mp3';
+import l11 from './audio/dialogue/L11.mp3';
+import l12 from './audio/dialogue/L12.mp3';
+import l13 from './audio/dialogue/L13.mp3';
+import l14 from './audio/dialogue/L14.mp3';
+import l15 from './audio/dialogue/L15.mp3';
+import l16 from './audio/dialogue/L16.mp3';
+import l17 from './audio/dialogue/L17.mp3';
+import l18 from './audio/dialogue/L18.mp3';
+import l19 from './audio/dialogue/L19.mp3';
+
 const step7 = {
     name: {
         pol: "Krok 7",
@@ -12,301 +49,301 @@ const step7 = {
     phrases: [
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "wagon plackartowy (ekonomiczny)",
+            eng: "plackart wagon (economy class)",
             rus: "плацкартный вагон",
-            audio: null,
+            audio: plackartwagon,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "wagon kupejny (z przydziałami)",
+            eng: "kupe wagon (with compartment)",
             rus: "купейный вагон",
-            audio: null,
+            audio: kupewagon,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "półka górna",
+            eng: "top shelf",
             rus: "верхняя полка",
-            audio: null,
+            audio: topshelf,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "półka dolna",
+            eng: "bottom shelf",
             rus: "нижняя полка",
-            audio: null,
+            audio: bottomshelf,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "półka boczna",
+            eng: "side shelf",
             rus: "боковая полка",
-            audio: null,
+            audio: sideshelf,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "bilet normalny",
+            eng: "full tichet",
             rus: "полный билет",
-            audio: null,
+            audio: fullticket,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "bilet dziecięcy",
+            eng: "child ticket",
             rus: "детский билет",
-            audio: null,
+            audio: childticket,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "bilet ulgowy",
+            eng: "discount ticket",
             rus: "льготный билет",
-            audio: null,
+            audio: discountticket,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "Do zapłaty 15 rubli.",
+            eng: "You should pay 15 rubles.",
             rus: "К оплате пятнадцать рублей.",
-            audio: null,
+            audio: youshouldpay15rubles,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "łącznie",
+            eng: "total",
             rus: "итого",
-            audio: null,
+            audio: total,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "3 rubli i 5 rubli. Łącznie 8 rubli.",
+            eng: "3 rubles and 5 rubles. A total of 8 rubles.",
             rus: "Три рубля и пять рублей. Итого восемь рублей.",
-            audio: null,
+            audio: threerublesandfiverubles,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "pościel",
+            eng: "bed linen",
             rus: "постельное бельё / постель",
-            audio: null,
+            audio: bedlinen,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "usługi dodatkowe",
+            eng: "additional service",
             rus: "дополнительные услуги",
-            audio: null,
+            audio: additionalservice,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "Pan może dodatkowo ... .",
+            eng: "You can additionally ... .",
             rus: "Вы можете дополнительно ... .",
-            audio: null,
+            audio: youcanadditionally,
             img: null,
             alt: null
         },
         {
             type: "add",
-            pol: "",
-            eng: "",
+            pol: "zapłacić za bieliznę",
+            eng: "pay for the bed linen",
             rus: "оплатить постельное бельё",
-            audio: null,
+            audio: payforbedlinen,
             img: null,
             alt: null
         },
         {
             type: "add",
-            pol: "",
-            eng: "",
+            pol: "zapłacić za herbatę",
+            eng: "pay for a tea",
             rus: "оплатить чай",
-            audio: null,
+            audio: payfortea,
             img: null,
             alt: null
         },
     ],
     dialogue: [
         {
-            namepol: "",
-            nameeng: "",
-            pol: "",
-            eng: "",
+            namepol: "Olek",
+            nameeng: "Olek",
+            pol: "Dzień dobry! Proszę jeden bilet do Kijowa!",
+            eng: "Hello! Please, one ticket to Kiev!",
             rus: "Добрый день! Пожалуйста, один билет до Киева!",
-            audio: null
+            audio: l1
         },
         {
-            namepol: "",
-            nameeng: "",
-            pol: "",
-            eng: "",
+            namepol: "Kasjer",
+            nameeng: "Cashier",
+            pol: "Na który dzień?",
+            eng: "Which day?",
             rus: "На какой день?",
-            audio: null
+            audio: l2
         },
         {
-            namepol: "",
-            nameeng: "",
-            pol: "",
-            eng: "",
+            namepol: "Olek",
+            nameeng: "Olek",
+            pol: "Na pojutrze.",
+            eng: "The day after tomorrow.",
             rus: "На послезавтра.",
-            audio: null
+            audio: l3
         },
         {
-            namepol: "",
-            nameeng: "",
-            pol: "",
-            eng: "",
+            namepol: "Kasjer",
+            nameeng: "Cashier",
+            pol: "Czyli na 18. sierpnia. Plackartowy lub kupejny?",
+            eng: "That is, on the 18. of August. Plackart or kupe?",
             rus: "То есть на восемнадцатое августа. Плацкартный или купейный?",
-            audio: null
+            audio: l4
         },
         {
-            namepol: "",
-            nameeng: "",
-            pol: "",
-            eng: "",
+            namepol: "Olek",
+            nameeng: "Olek",
+            pol: "Kupejny.",
+            eng: "Kupe.",
             rus: "Купейный.",
-            audio: null
+            audio: l5
         },
         {
-            namepol: "",
-            nameeng: "",
-            pol: "",
-            eng: "",
+            namepol: "Kasjer",
+            nameeng: "Cashier",
+            pol: "Półka górna lub dolna?",
+            eng: "Top shelf or bottom shelf?",
             rus: "Верхняя полка или нижняя?",
-            audio: null
+            audio: l6
         },
         {
-            namepol: "",
-            nameeng: "",
-            pol: "",
-            eng: "",
+            namepol: "Olek",
+            nameeng: "Olek",
+            pol: "Dolna, proszę!",
+            eng: "Bottom, please!",
             rus: "Нижняя, пожалуйста!",
-            audio: null
+            audio: l7
         },
         {
-            namepol: "",
-            nameeng: "",
-            pol: "",
-            eng: "",
+            namepol: "Kasjer",
+            nameeng: "Cashier",
+            pol: "Normalny lub ulgowy?",
+            eng: "Full ticket or with discount?",
             rus: "Полный или льготный?",
-            audio: null
+            audio: l8
         },
         {
-            namepol: "",
-            nameeng: "",
-            pol: "",
-            eng: "",
-            rus: "Скажите, а у Вас действует польский студенческий?",
-            audio: null
+            namepol: "Olek",
+            nameeng: "Olek",
+            pol: "Przepraszam, a czy u was działa polska legitymacja studencka?",
+            eng: "Tell me, do you accept a Polish student card?",
+            rus: "Скажите, а у вас действует польский студенческий?",
+            audio: l9
         },
         {
-            namepol: "",
-            nameeng: "",
-            pol: "",
-            eng: "",
+            namepol: "Kasjer",
+            nameeng: "Cashier",
+            pol: "Nie, niestety nie działa.",
+            eng: "No, unfortunately it doesn't work.",
             rus: "Нет, к сожалению не действует.",
-            audio: null
+            audio: l10
         },
         {
-            namepol: "",
-            nameeng: "",
-            pol: "",
-            eng: "",
+            namepol: "Olek",
+            nameeng: "Olek",
+            pol: "Wtedy normalny.",
+            eng: "Then full.",
             rus: "Тогда полный.",
-            audio: null
+            audio: l11
         },
         {
-            namepol: "",
-            nameeng: "",
-            pol: "",
-            eng: "",
+            namepol: "Kasjer",
+            nameeng: "Cashier",
+            pol: "Na 18. sierpnia jedno kupejne miejsce do Kijowa, dolna półka. To poprawnie?",
+            eng: "On the 18. of August, one kupe place to Kiev, bottom shelf. Right?",
             rus: "На восемнадцатое августа одно купейное место до Киева, нижняя полка. Правильно?",
-            audio: null
+            audio: l12
         },
         {
-            namepol: "",
-            nameeng: "",
-            pol: "",
-            eng: "",
+            namepol: "Olek",
+            nameeng: "Olek",
+            pol: "Tak, wszystko poprawnie.",
+            eng: "Yes, that's right.",
             rus: "Да, всё верно.",
-            audio: null
+            audio: l13
         },
         {
-            namepol: "",
-            nameeng: "",
-            pol: "",
-            eng: "",
+            namepol: "Kasjer",
+            nameeng: "Cashier",
+            pol: "Do zapłaty 81 rubel.",
+            eng: "81 rubles to pay.",
             rus: "К оплате восемьдесят один рубль.",
-            audio: null
+            audio: l14
         },
         {
-            namepol: "",
-            nameeng: "",
-            pol: "",
-            eng: "",
+            namepol: "Olek",
+            nameeng: "Olek",
+            pol: "Przepraszam, czy mam dodatkowo zapłacić za pościel?",
+            eng: "Excuse me, do I need to pay extra for the bed linen?",
             rus: "Извините, надо ли мне дополнительно оплатить постель?",
-            audio: null
+            audio: l15
         },
         {
-            namepol: "",
-            nameeng: "",
-            pol: "",
-            eng: "",
+            namepol: "Kasjer",
+            nameeng: "Cashier",
+            pol: "Pościel jest wliczona do ceny biletu.",
+            eng: "Bed linen is included in the ticket price.",
             rus: "Постельное бельё включено в стоимость билета.",
-            audio: null
+            audio: l16
         },
         {
-            namepol: "",
-            nameeng: "",
-            pol: "",
-            eng: "",
+            namepol: "Olek",
+            nameeng: "Olek",
+            pol: "Mogę zapłacić kartą?",
+            eng: "Can I pay by card?",
             rus: "Могу я заплатить карточкой?",
-            audio: null
+            audio: l17
         },
         {
-            namepol: "",
-            nameeng: "",
-            pol: "",
-            eng: "",
+            namepol: "Kasjer",
+            nameeng: "Cashier",
+            pol: "Tak, proszę. Proszę wprowadzić pin. Proszę Pana bilet.",
+            eng: " Yes, please. Enter your pin code. Here's your ticket.",
             rus: "Да, пожалуйста. Введите пин-код. Вот Ваш билет.",
-            audio: null
+            audio: l18
         },
         {
-            namepol: "",
-            nameeng: "",
-            pol: "",
-            eng: "",
+            namepol: "Olek",
+            nameeng: "Olek",
+            pol: "Dziękuję! Do widzenia!",
+            eng: "Thank you! Bye!",
             rus: "Спасибо! До свиданья!",
-            audio: null
+            audio: l19
         },
     ],
     addition: [
