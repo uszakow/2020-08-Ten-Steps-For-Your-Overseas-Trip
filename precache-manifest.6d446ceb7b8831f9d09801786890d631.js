@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "adda721918811b7b6f7504abf95e5159",
+    "revision": "58e019a7192801400051d0f2d4a778c6",
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/index.html"
   },
   {
-    "revision": "c0b27351a016213d433f",
+    "revision": "2220514a884d60ab9bb3",
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/css/main.0fc41248.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/2.ddbd2e79.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c0b27351a016213d433f",
-    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/main.800a08a0.chunk.js"
+    "revision": "2220514a884d60ab9bb3",
+    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/main.615d7fdd.chunk.js"
   },
   {
     "revision": "e1b4cb525b99aaa78eff",
@@ -1760,8 +1760,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/park.30e598ab.png"
   },
   {
-    "revision": "db6af71d8556cd20e908f7c6397c3956",
-    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/plane.db6af71d.png"
+    "revision": "fe3b86ca6d2bd8a2532cc7bda8012a4d",
+    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/plane.fe3b86ca.png"
   },
   {
     "revision": "aa3ad8a9daa8ec9d6018955708fe5737",
