@@ -10,7 +10,6 @@ import canyoutelltheaddress from './audio/phrases/Can you tell the address.mp3';
 import canyouwritedownthe from './audio/phrases/Can you write down the.mp3';
 import close from './audio/phrases/Close.mp3';
 import couldyouspeakslower from './audio/phrases/Could you speak slower.mp3';
-import couldyoutelltheaddress from './audio/phrases/Could you tell the address.mp3';
 import crosstheroad from './audio/phrases/Cross the road.mp3';
 import far from './audio/phrases/Far.mp3';
 import gostraightturnleftaftertwoblocks from './audio/phrases/Go straight turn left after two blocks.mp3';

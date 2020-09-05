@@ -31,7 +31,6 @@ import pleasetellme from './audio/phrases/Please tell me.mp3';
 import police from './audio/phrases/Police.mp3';
 import postoffice from './audio/phrases/Post office.mp3';
 import railwaystation from './audio/phrases/Railway station.mp3';
-import shop from './audio/phrases/Shop.mp3';
 import station from './audio/phrases/Station.mp3';
 import stop from './audio/phrases/Stop.mp3';
 import suburbtrain from './audio/phrases/Suburb train.mp3';
@@ -86,7 +85,6 @@ import imgmarshrutka from './img/marshrutka.png';
 import imgoldtown from './img/oldtown.png';
 import imgplane from './img/plane.png';
 import imgpostoffice from './img/postoffice.png';
-import imgshop from './img/shop.png';
 import imgsquare from './img/square.png';
 import imgstop from './img/stop.png';
 import imgstreet from './img/street.png';
@@ -143,16 +141,7 @@ const step2 = {
             audio: toilet,
             img: imgtoilet,
             alt: "toilet"
-        },
-        {
-            type: "add",
-            pol: "sklep",
-            eng: "shop",
-            rus: "магазин",
-            audio: shop,
-            img: imgshop,
-            alt: "shop"
-        },
+        },        
         {
             type: "add",
             pol: "bank",

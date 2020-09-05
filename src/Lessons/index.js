@@ -23,7 +23,7 @@ const lessons = [
     step4,
     step5,
     step6,
-    step7,
+    // step7,
     step8,
     step9,
     step10,
