@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/css/main.985124a4.chunk.css",
-    "main.js": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/main.60c8393d.chunk.js",
-    "main.js.map": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/main.60c8393d.chunk.js.map",
+    "main.css": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/css/main.23b86fd4.chunk.css",
+    "main.js": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/main.2ae908ce.chunk.js",
+    "main.js.map": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/main.2ae908ce.chunk.js.map",
     "runtime-main.js": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/runtime-main.68a19604.js",
     "runtime-main.js.map": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/runtime-main.68a19604.js.map",
     "static/js/2.ee4354ca.chunk.js": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/2.ee4354ca.chunk.js",
     "static/js/2.ee4354ca.chunk.js.map": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/2.ee4354ca.chunk.js.map",
     "index.html": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/index.html",
-    "precache-manifest.4733101b33cc2d6a41263909f5b0ed4f.js": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/precache-manifest.4733101b33cc2d6a41263909f5b0ed4f.js",
+    "precache-manifest.e2d3712785e4b31c43e25a02f81ecccf.js": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/precache-manifest.e2d3712785e4b31c43e25a02f81ecccf.js",
     "service-worker.js": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/service-worker.js",
-    "static/css/main.985124a4.chunk.css.map": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/css/main.985124a4.chunk.css.map",
+    "static/css/main.23b86fd4.chunk.css.map": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/css/main.23b86fd4.chunk.css.map",
     "static/js/2.ee4354ca.chunk.js.LICENSE.txt": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/2.ee4354ca.chunk.js.LICENSE.txt",
     "static/media/Aboutme.png": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/Aboutme.a19e6b20.png",
     "static/media/Across the road.mp3": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/Across the road.69c12e1a.mp3",
@@ -387,7 +387,7 @@
   "entrypoints": [
     "static/js/runtime-main.68a19604.js",
     "static/js/2.ee4354ca.chunk.js",
-    "static/css/main.985124a4.chunk.css",
-    "static/js/main.60c8393d.chunk.js"
+    "static/css/main.23b86fd4.chunk.css",
+    "static/js/main.2ae908ce.chunk.js"
   ]
 }
