@@ -1,17 +1,18 @@
 import React from 'react';
 
-import howtouse from './content';
 import HowToUseItem from './HowToUseItem/HowToUseItem';
+
+import howtouse from './content';
 
 const HowToUse = props => {
     const { lang } = props;
 
     return (
-        <div>
+        <>
             {howtouse.map((item, index) => (
                 <HowToUseItem key={index} content={item} lang={lang} number={index + 1} />
             ))}
-        </div>
+        </>
     )
 }
 

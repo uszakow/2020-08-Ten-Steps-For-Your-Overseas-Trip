@@ -1,0 +1,25 @@
+@import "./../../variables";
+
+.home-wrap {
+    h1 {
+        margin-left: 50px;
+        font-family: "Marck Script";
+        font-size: 22px;
+        font-style: italic;
+    }    
+    p {
+        font-size: 18px;
+        font-style: italic;
+    }
+}
+
+@media (min-width: $sm) {
+    .home-wrap {
+        h1{
+            font-size: 28px;
+        }
+        p {
+            font-size: 22px;
+        }
+    }
+}
