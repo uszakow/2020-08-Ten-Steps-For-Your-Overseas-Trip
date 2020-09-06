@@ -33,7 +33,7 @@ const TopMenu = (props) => {
                     return isHere;
                 }}>{items.steps[lang]}</NavLink>
             <NavLink
-                to="/how-use"
+                to="/how-to-use"
                 activeClassName="topmenu-item-active"
                 onClick={closeSideMenu}>{items.howuse[lang]}</NavLink>
             <NavLink

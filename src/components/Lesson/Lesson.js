@@ -54,7 +54,7 @@ class Lesson extends Component {
         const lesson = lessons[indexOfLesson];
         const { lang, isMobile } = this.props;
         const { audioSpeed } = this.state;
-
+       
         return (
             <div className="lesson-wrap">
                 <LessonAudioController

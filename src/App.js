@@ -12,6 +12,7 @@ import Banner from './components/Banner/Banner';
 import TopMenu from './components/TopMenu/TopMenu';
 import SideMenu from './components/SideMenu/SideMenu';
 import Lesson from './components/Lesson/Lesson';
+import HowToUse from './components/HowToUse/HowToUse';
 import Footer from './components/Footer/Footer';
 import ButtonUp from './components/ButtonUp/ButtonUp';
 
@@ -83,11 +84,9 @@ class App extends Component {
                 <Redirect exact from="/10-steps" to="/" />
                 <Route exact path="/">
                   <h1>Home</h1>
-                </Route>               
-                <Route path="/10-steps/:index" render={props => <Lesson lang={lang} isMobile={isMobileLesson} {...props} />} />
-                <Route path="/how-use">
-                  <h1>Jak korzystać z programu</h1>
                 </Route>
+                <Route path="/10-steps/:index" render={props => <Lesson lang={lang} isMobile={isMobileLesson} {...props} />} />                
+                <Route path="/how-to-use" render={() => <HowToUse lang={lang} />} />
                 <Route path="/about-me">
                   <h1>O mnie</h1>
                 </Route>
