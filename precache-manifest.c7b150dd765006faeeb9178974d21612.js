@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5157e3b0a0d58e29d2d499e44374aef7",
+    "revision": "6af936faca929f7c90e62c34f29e8682",
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/index.html"
   },
   {
-    "revision": "0b7677f2029bb16cd6f6",
+    "revision": "7c8a15953e9ff6e381a4",
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/css/main.23b86fd4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/2.ee4354ca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0b7677f2029bb16cd6f6",
-    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/main.2ae908ce.chunk.js"
+    "revision": "7c8a15953e9ff6e381a4",
+    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/main.b0063dba.chunk.js"
   },
   {
     "revision": "e1b4cb525b99aaa78eff",
