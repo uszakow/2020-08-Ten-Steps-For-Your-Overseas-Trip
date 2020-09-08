@@ -14,6 +14,7 @@ import SideMenu from './components/SideMenu/SideMenu';
 import Home from './components/Home/Home';
 import Lesson from './components/Lesson/Lesson';
 import HowToUse from './components/HowToUse/HowToUse';
+import AboutMe from './components/AboutMe/AboutMe';
 import Footer from './components/Footer/Footer';
 import ButtonUp from './components/ButtonUp/ButtonUp';
 
@@ -79,16 +80,13 @@ class App extends Component {
               lang={lang} />
 
             <main className="app-main">
-              <Switch>
-                <Redirect from="/https://uszakow.github.io/2020-08-Ten-Steps-For-Your-Overseas-Trip/" to="https://uszakow.github.io/" />
+              <Switch>                
                 <Redirect from="/index.html" to="/" />
                 <Redirect exact from="/10-steps" to="/" />
                 <Route exact path="/" render={() => <Home lang={lang} />} />
                 <Route path="/10-steps/:index" render={props => <Lesson lang={lang} isMobile={isMobileLesson} {...props} />} />
                 <Route path="/how-to-use" render={() => <HowToUse lang={lang} />} />
-                <Route path="/about-me">
-                  <h1>O mnie</h1>
-                </Route>
+                <Route path="/about-me" render={() => <AboutMe lang={lang} />} />
                 <Route>
                   <h1>Strona 404</h1>
                 </Route>

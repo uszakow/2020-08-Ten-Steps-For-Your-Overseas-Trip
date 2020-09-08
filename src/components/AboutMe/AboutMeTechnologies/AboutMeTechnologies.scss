@@ -1,0 +1,18 @@
+@import "./../../../variables";
+
+.aboutme-technologies-wrap {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    span{
+        display: grid;
+    }
+}
+.aboutme-technologies-icons {
+    margin: 10px 0;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fit, 70px);
+    grid-row-gap: 10px;
+}

@@ -1,0 +1,30 @@
+@import "./../../../variables";
+
+.aboutme-introducing {
+    margin-top: 10px;
+    font-size: 20px;
+    font-style: italic;
+    a {
+        color: $blue-links;
+    }
+    .aboutme-introducing-img {
+        max-width: 100%;
+        border: 4px solid $grey-dark;
+        border-radius: 20px;
+        display: block;
+        margin: auto;
+    }
+    .aboutme-introducing-link {
+        display: grid;
+    }
+}
+
+@media (min-width: $sm) {
+    .aboutme-introducing {
+        font-size: 20px;
+        .aboutme-introducing-img {
+            margin-right: 10px;
+            float: left;
+        }
+    }
+}

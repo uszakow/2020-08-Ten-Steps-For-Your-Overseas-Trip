@@ -1,0 +1,44 @@
+@import "./../../../variables";
+
+.aboutme-examples-title {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+    margin: 50px 0 20px;
+}
+.aboutme-examples-wrap {
+    display: grid;
+    justify-content: center;
+}
+.aboutme-examples-card {
+    max-width: 350px;
+    border: 4px solid $grey-dark;
+    border-radius: 20px;
+    margin: 5px;
+    overflow: hidden;
+    background-color: #e9e9e9;
+    img {
+        max-width: 100%;
+    }
+    a {
+        color: $blue-links;
+    }
+    .aboutme-examples-description {
+        padding: 5px 10px 10px;
+    }
+    .aboutme-examples-textsourcecode {
+        font-weight: 800;
+    }
+}
+
+@media (min-width: $sm) {
+    .aboutme-examples-wrap {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: $xl) {
+    .aboutme-examples-wrap {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
