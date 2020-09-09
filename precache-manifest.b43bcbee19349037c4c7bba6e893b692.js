@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9551bc5501e58a4c5db0abc0591a944e",
+    "revision": "7018e41261d6a241447b2087fbf33e69",
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/index.html"
   },
   {
-    "revision": "1fcf6c0f9847c42bde4c",
+    "revision": "c2c83ae4b2c0eec4c418",
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/css/main.dad8bd5d.chunk.css"
   },
   {
-    "revision": "c9d1dc0ca15f84d668ef",
-    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/2.0045d660.chunk.js"
+    "revision": "94534d7011e9f7b0f18f",
+    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/2.6e17beb3.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/2.0045d660.chunk.js.LICENSE.txt"
+    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/2.6e17beb3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1fcf6c0f9847c42bde4c",
-    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/main.4ef5a240.chunk.js"
+    "revision": "c2c83ae4b2c0eec4c418",
+    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/main.62bae810.chunk.js"
   },
   {
     "revision": "e1b4cb525b99aaa78eff",
@@ -2184,6 +2184,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/bank.00582215.png"
   },
   {
+    "revision": "bc242b7efac12af18dae6162be746f46",
+    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/beer100.bc242b7e.png"
+  },
+  {
     "revision": "76d7c6aabe5de63af067918dc270986c",
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/bootstrap.76d7c6aa.svg"
   },
@@ -2212,12 +2216,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/css.2ca88453.svg"
   },
   {
+    "revision": "8feae3a61d767e0a8aa650742faa2d47",
+    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/cvas.8feae3a6.png"
+  },
+  {
+    "revision": "6125994191d4488217079eef84dbefcd",
+    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/deruny.61259941.png"
+  },
+  {
     "revision": "c50e8660cb6033ee459dad66261a340e",
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/elevator.c50e8660.png"
   },
   {
     "revision": "af517a81830955b3d2bc3219e98fd8f5",
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/english.af517a81.svg"
+  },
+  {
+    "revision": "3f8d62378ff34733b06ca29468e5cd4d",
+    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/entrance.3f8d6237.png"
   },
   {
     "revision": "e66c874393000b5136047835e710897a",
@@ -2234,6 +2250,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "66e06c06b4b40acff6a6595e710b5006",
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/git.66e06c06.svg"
+  },
+  {
+    "revision": "0e6b7efc0c2ad582b9f586cf2d7a371e",
+    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/hallway.0e6b7efc.png"
   },
   {
     "revision": "b7bcf03fae9495926cb86a88f888fcf4",
@@ -2352,6 +2372,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/train.70d68d78.png"
   },
   {
+    "revision": "8f183ced69833d941c91a3ec13ed9b74",
+    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/train100.8f183ced.png"
+  },
+  {
     "revision": "9a0c17e055c5b7037baac8bd5ddc3a61",
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/trainstation.9a0c17e0.png"
   },
@@ -2366,6 +2390,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "643bbfc1f6416a1df8dfa4da188d216e",
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/uszakow.643bbfc1.png"
+  },
+  {
+    "revision": "52812945aac6d92f9015b47be870b118",
+    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/wagon100.52812945.png"
   },
   {
     "revision": "283570c827870930f2bdb23f4b87c346",
