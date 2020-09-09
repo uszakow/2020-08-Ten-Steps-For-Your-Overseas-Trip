@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/2020-08-Ten-Steps-For-Your-Overseas-Trip/precache-manifest.848d7c2da0848ae42a0825b53ab0936e.js"
+  "/2020-08-Ten-Steps-For-Your-Overseas-Trip/precache-manifest.9c1c02c7eca71c5bb4c544e7219eb4e6.js"
 );
 
 self.addEventListener('message', (event) => {
