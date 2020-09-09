@@ -1,6 +1,8 @@
 import React from 'react';
 import './Footer.scss';
 
+import { Link } from 'react-router-dom';
+
 import photo from '../../img/Footer/uszakow.png';
 
 const author = {
@@ -13,7 +15,9 @@ const Footer = props => {
 
     return (
         <footer className="footer-wrap">
-            <img src={photo} alt="Uszakow" width="100" />
+            <Link to="/about-me">
+                <img src={photo} alt="Uszakow" width="100" />
+            </Link>
             <div>
                 <div className="footer-title">{author[lang]}:</div>
                 <div className="footer-title">Paweł Uszakow</div>

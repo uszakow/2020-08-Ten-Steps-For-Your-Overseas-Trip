@@ -29,11 +29,13 @@ import y from './audio/Ы.mp3';
 import e from './audio/Э.mp3';
 import ju from './audio/Ю.mp3';
 import ja from './audio/Я.mp3';
+import hadrsign from './audio/Hard sign.mp3';
+import softsign from './audio/Soft sign.mp3';
 
 const cyrillic = {
     name: {
         pol: "Cyryllica",
-        eng: "Cyryllic"
+        eng: "Cyrillic"
     },
     title: {
         pol: "Rosyjski alfabet",
@@ -233,8 +235,8 @@ const cyrillic = {
             type: "phrase",
             pol: "Znak twardości poprzedniej spółgłoski",
             eng: "Hard sign",
-            rus: "ъ",
-            audio: null
+            rus: "ъ (твёрдый знак)",
+            audio: hadrsign
         },
         {
             type: "phrase",
@@ -247,8 +249,8 @@ const cyrillic = {
             type: "phrase",
             pol: "Znak miękości poprzedniej spółgłoski",
             eng: "Soft sign",
-            rus: "ь",
-            audio: null
+            rus: "ь (мягкий знак)",
+            audio: softsign
         },
         {
             type: "phrase",
