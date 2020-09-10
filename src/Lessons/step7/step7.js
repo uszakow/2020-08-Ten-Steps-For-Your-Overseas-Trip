@@ -35,6 +35,8 @@ import l17 from './audio/dialogue/L17.mp3';
 import l18 from './audio/dialogue/L18.mp3';
 import l19 from './audio/dialogue/L19.mp3';
 
+import imgshelf from './img/train100.png';
+
 const step7 = {
     name: {
         pol: "Krok 7",
@@ -356,8 +358,8 @@ const step7 = {
         {
             pol: "Wagony do spania są „plackartowe” i „kupejne”. Wagon plackartowy składa się z otwartych przedziałów. Z jednej strony od wspólnego przejścia znajdują się 4 kuszetki (2 górne i 2 dolne). Z drugiej strony są jeszcze 2 miejsca, położone wzdłuż korytarza – tak zwane „miejsca boczne”. Są najbardziej niewygodne, dlatego warto unikać przejazdu na nich. Również gorszymi miejscami są uważane miejsca w 1-2 ostatnich przedziałach przed toaletą. Wagon kupejny składa się z zamkniętych przedziałów, w każdym z których znajduje się 4 miejsca do spania – 2 górne i 2 dolne. Bocznych miejsc nie ma – w ich miejscu znajduje się korytarz. Kuszetki w wagonach kupejnych są dłuższe, co jest bardzo aktualnie dla wysokich osób (długość miejsca do spania w wagonie plackartowym stanowi tylko 165-175 cm, w wagonie kupejnym – około 180-185 cm). Miejsce w wagonie kupejnym z reguły jest droższe od miejsca w wagonie plackartowym nie więcej niż na 50% i dla wygodnej podróży warto brać jego.",
             eng: "Sleeping wagons are \u{0022}plackart\u{0022} or \u{0022}kupe\u{0022}. A plackart wagon consists of open compartments. On one side of the common passage there are 4 berths (2 upper and 2 lower). On another side there are 2 more places along the corridor – the so-called \u{0022}side places\u{0022}. They are the most inconvenient, so avoid riding on them. Places in the last 1-2 compartments before the toilet are also considered as worse places. A kupe wagon consists of closed compartments, in each there are 4 sleeping places – 2 upper and 2 lower. There are no side places – there is a corridor in their place. Berths in a kupe wagons are longer, which is very actuall for tall people (the length of the sleeping place in a plackart wagon is only 165-175 cm, in a kupe wagon – about 180-185 cm). A place in a kupe wagon is usually more expensive than a place in a plackart wagon by no more than 50% and it is worth taking it for a comfortable journey.",
-            img: null,
-            alt: null
+            img: imgshelf,
+            alt: "shelf"
         },
         {
             pol: "Oprócz tego w składzie pociągu mogą być inne wagony – wagon-restauracja oraz tak zwane „wagony sypialne”. Wagon sypialny składa się z przedziałów, w każdym z których jest tylko 2 miejsca do spania (bez miejsc górnych). Wartość biletu jest 2-3 razy większa w porównaniu do wartości miejsca w wagonie kupejnym.",

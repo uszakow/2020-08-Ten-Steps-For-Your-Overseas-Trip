@@ -69,6 +69,7 @@ import imgaddress from './img/address.png';
 import imgcastle from './img/castle.png';
 import imgelevator from './img/elevator.png';
 import imgforest from './img/forest.png';
+import imghallway from './img/hallway.png';
 import imgkitchen from './img/kitchen.png';
 import imgmuseum from './img/museum.png';
 import imgpark from './img/park.png';
@@ -321,8 +322,8 @@ const step3 = {
             eng: "hallway",
             rus: "коридор",
             audio: hallway,
-            img: null,
-            alt: null
+            img: imghallway,
+            alt: "hallway"
         },
         {
             type: "phrase",

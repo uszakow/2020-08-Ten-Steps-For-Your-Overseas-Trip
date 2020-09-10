@@ -81,6 +81,8 @@ import imgbus from './img/bus.png';
 import imgbusstation from './img/busstation.png';
 import imgcashmashine from './img/cashmashine.png';
 import imgcenter from './img/center.png';
+import imgentrance from './img/entrance.png';
+import imgexit from './img/exit.png';
 import imgmarshrutka from './img/marshrutka.png';
 import imgoldtown from './img/oldtown.png';
 import imgplane from './img/plane.png';
@@ -391,8 +393,8 @@ const step2 = {
             eng: "exit",
             rus: "выход",
             audio: exit,
-            img: null,
-            alt: null
+            img: imgexit,
+            alt: "exit"
         },
         {
             type: "phrase",
@@ -400,8 +402,8 @@ const step2 = {
             eng: "door",
             rus: "дверь",
             audio: door,
-            img: null,
-            alt: null
+            img: imgentrance,
+            alt: "door"
         },
         {
             type: "phrase",

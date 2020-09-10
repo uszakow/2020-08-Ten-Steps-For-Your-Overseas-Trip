@@ -58,6 +58,10 @@ import l23 from './audio/dialogue/L23.mp3';
 import l24 from './audio/dialogue/L24.mp3';
 import l25 from './audio/dialogue/L25.mp3';
 
+import imgbeer from './img/beer100.png';
+import imgcvas from './img/cvas.png';
+import imgderuny from './img/deruny.png';
+
 const step8 = {
     name: {
         pol: "Krok 8",
@@ -66,8 +70,8 @@ const step8 = {
     title: {
         pol: "Spotkanie z przyjacielem",
         eng: "Meeting a friend",
-        img: null,
-        alt: null
+        img: imgbeer,
+        alt: "Beer"
     },
     phrases: [
         {
@@ -265,8 +269,8 @@ const step8 = {
             eng: "kvass",
             rus: "квас",
             audio: kvass,
-            img: null,
-            alt: null
+            img: imgcvas,
+            alt: "kvass"
         },
         {
             type: "phrase",
@@ -283,8 +287,8 @@ const step8 = {
             eng: "deruny (potato pancakes)",
             rus: "деруны / драники",
             audio: deruny,
-            img: null,
-            alt: null
+            img: imgderuny,
+            alt: "deruny"
         },
         {
             type: "phrase",

@@ -3,6 +3,8 @@ import './Lesson.scss';
 
 import lessons from './../../lessons';
 
+import Page404 from './../Page404/Page404';
+
 import LessonAudioController from './LessonAudioController/LessonAudioController';
 import LessonTitle from './LessonTitle/LessonTitle';
 import LessonPhrases from './LessonPhrases/LessonPhrases';
@@ -25,7 +27,7 @@ class Lesson extends Component {
             this.setState({
                 audioSpeed: audioSpeed
             })
-        }        
+        }
     }
     playAudio = sound => {
         //Tempo audio bierze się z sessionStorage. Jeżeli znaczenia nie ma, to zostaje ustalone jako 1.       
@@ -50,11 +52,20 @@ class Lesson extends Component {
         this.getAudioSpeed();
     }
     render() {
-        const indexOfLesson = this.props.match.params.index;
+        //indexOfLesson must be a number
+        const indexOfLesson = parseInt(this.props.match.params.index);
         const lesson = lessons[indexOfLesson];
         const { lang, isMobile } = this.props;
         const { audioSpeed } = this.state;
-       
+
+        //Checking if indexOfLesson have mistakes: if it in's a number, less than 0 or more that length of object with all lessons. If yes - Page404. If no - lesson content.
+        if (isNaN(indexOfLesson) || indexOfLesson < 0 || indexOfLesson >= lessons.length) {
+            console.log(indexOfLesson < 0)
+            return (
+                <Page404 lang={lang} />
+            )
+        }
+
         return (
             <div className="lesson-wrap">
                 <LessonAudioController
