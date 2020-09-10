@@ -1,3 +1,60 @@
+import atickettothetheatercosts from './audio/phrases/A ticket to the theater costs.mp3';
+import busnumber35goestothe from './audio/phrases/Bus number 35 goes to the.mp3';
+import eight from './audio/phrases/Eight.mp3';
+import eighthundred from './audio/phrases/Eight hundred.mp3';
+import eighteen from './audio/phrases/Eighteen.mp3';
+import eighty from './audio/phrases/Eighty.mp3';
+import eleven from './audio/phrases/Eleven.mp3';
+import fifteen from './audio/phrases/Fifteen.mp3';
+import fifty from './audio/phrases/Fifty.mp3';
+import five from './audio/phrases/Five.mp3';
+import fivehundred from './audio/phrases/Five hundred.mp3';
+import forty from './audio/phrases/Forty.mp3';
+import four from './audio/phrases/Four.mp3';
+import fourhundred from './audio/phrases/Four hundred.mp3';
+import fourteen from './audio/phrases/Fourteen.mp3';
+import half from './audio/phrases/Half.mp3';
+import hundred from './audio/phrases/Hundred.mp3';
+import marshrutkanumberone from './audio/phrases/Marshrutka number one.mp3';
+import nine from './audio/phrases/Nine.mp3';
+import ninehundred from './audio/phrases/Nine hundred.mp3';
+import nineteen from './audio/phrases/Nineteen.mp3';
+import ninety from './audio/phrases/Ninety.mp3';
+import one from './audio/phrases/One.mp3';
+import oneandahalf from './audio/phrases/One and a half.mp3';
+import oneandahalfrubles from './audio/phrases/One and a half rubles.mp3';
+import seven from './audio/phrases/Seven.mp3';
+import sevenhundred from './audio/phrases/Seven hundred.mp3';
+import seventeen from './audio/phrases/Seventeen.mp3';
+import seventy from './audio/phrases/Seventy.mp3';
+import six from './audio/phrases/Six.mp3';
+import sixhundred from './audio/phrases/Six hundred.mp3';
+import sixteen from './audio/phrases/Sixteen.mp3';
+import sixty from './audio/phrases/Sixty.mp3';
+import ten from './audio/phrases/Ten.mp3';
+import thebookcosts354hryvnia from './audio/phrases/The book costs 354 hryvnia.mp3';
+import thefareis8hryvnia from './audio/phrases/The fare is 8 hryvnia.mp3';
+import thirteen from './audio/phrases/Thirteen.mp3';
+import thirty from './audio/phrases/Thirty.mp3';
+import thousand from './audio/phrases/Thousand.mp3';
+import three from './audio/phrases/Three.mp3';
+import threehundred from './audio/phrases/Three hundred.mp3';
+import threerubles from './audio/phrases/Three rubles.mp3';
+import trolleybusnumber14goes from './audio/phrases/Trolleybus number 14 goes.mp3';
+import twelve from './audio/phrases/Twelve.mp3';
+import twenty from './audio/phrases/Twenty.mp3';
+import two from './audio/phrases/Two.mp3';
+import twohundred from './audio/phrases/Two hundred.mp3';
+
+import l1 from './audio/dialogue/L1.mp3';
+import l2 from './audio/dialogue/L2.mp3';
+import l3 from './audio/dialogue/L3.mp3';
+import l4 from './audio/dialogue/L4.mp3';
+import l5 from './audio/dialogue/L5.mp3';
+import l6 from './audio/dialogue/L6.mp3';
+import l7 from './audio/dialogue/L7.mp3';
+import l8 from './audio/dialogue/L8.mp3';
+
 const addition1 = {
     name: {
         pol: "Dodatek 1: liczebniki główne",
@@ -12,424 +69,424 @@ const addition1 = {
     phrases: [
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "jeden",
+            eng: "one",
             rus: "один",
-            audio: null,
+            audio: one,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "dwa",
+            eng: "two",
             rus: "два",
-            audio: null,
+            audio: two,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "trzy",
+            eng: "three",
             rus: "три",
-            audio: null,
+            audio: three,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "cztery",
+            eng: "four",
             rus: "четыре",
-            audio: null,
+            audio: four,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "pięć",
+            eng: "five",
             rus: "пять",
-            audio: null,
+            audio: five,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "sześć",
+            eng: "six",
             rus: "шесть",
-            audio: null,
+            audio: six,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "siedem",
+            eng: "seven",
             rus: "семь",
-            audio: null,
+            audio: seven,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "osiem",
+            eng: "eight",
             rus: "восемь",
-            audio: null,
+            audio: eight,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "dziewięć",
+            eng: "nine",
             rus: "девять",
-            audio: null,
+            audio: nine,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "dziesięć",
+            eng: "ten",
             rus: "десять",
-            audio: null,
+            audio: ten,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "jedenaście",
+            eng: "eleven",
             rus: "одиннадцать",
-            audio: null,
+            audio: eleven,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "dwanaście",
+            eng: "twelve",
             rus: "двенадцать",
-            audio: null,
+            audio: twelve,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "trzynaście",
+            eng: "thirteen",
             rus: "тринадцать",
-            audio: null,
+            audio: thirteen,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "czternaście",
+            eng: "fourteen",
             rus: "четырнадцать",
-            audio: null,
+            audio: fourteen,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "piętnaście",
+            eng: "fifteen",
             rus: "пятнадцать",
-            audio: null,
+            audio: fifteen,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "szesnaście",
+            eng: "sixteen",
             rus: "шестнадцать",
-            audio: null,
+            audio: sixteen,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "siedemnaście",
+            eng: "seventeen",
             rus: "семнадцать",
-            audio: null,
+            audio: seventeen,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "osiemnaście",
+            eng: "eighteen",
             rus: "восемнадцать",
-            audio: null,
+            audio: eighteen,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "dziewiętnaście",
+            eng: "nineteen",
             rus: "девятнадцать",
-            audio: null,
+            audio: nineteen,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "dwadzieścia",
+            eng: "twenty",
             rus: "двадцать",
-            audio: null,
+            audio: twenty,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "trzydzieści",
+            eng: "thirty",
             rus: "тридцать",
-            audio: null,
+            audio: thirty,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "czterdzieści",
+            eng: "forty",
             rus: "сорок",
-            audio: null,
+            audio: forty,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "pięćdziesiąt",
+            eng: "fifty",
             rus: "пятьдесят",
-            audio: null,
+            audio: fifty,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "sześćdziesiąt",
+            eng: "sixty",
             rus: "шестьдесят",
-            audio: null,
+            audio: sixty,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "siedemdziesiąt",
+            eng: "seventy",
             rus: "семьдесят",
-            audio: null,
+            audio: seventy,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "osiemdziesiąt",
+            eng: "eighty",
             rus: "восемьдесят",
-            audio: null,
+            audio: eighty,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "dziewięćdziesiąt",
+            eng: "ninety",
             rus: "девяносто",
-            audio: null,
+            audio: ninety,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "sto",
+            eng: "hundred",
             rus: "сто",
-            audio: null,
+            audio: hundred,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "dwieście",
+            eng: "two hundred",
             rus: "двести",
-            audio: null,
+            audio: twohundred,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "trzysta",
+            eng: "three hundred",
             rus: "триста",
-            audio: null,
+            audio: threehundred,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "czterysta",
+            eng: "four hundred",
             rus: "четыреста",
-            audio: null,
+            audio: fourhundred,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "pięćset",
+            eng: "five hundred",
             rus: "пятьсот",
-            audio: null,
+            audio: fivehundred,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "sześćset",
+            eng: "six hundred",
             rus: "шестьсот",
-            audio: null,
+            audio: sixhundred,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "siedemset",
+            eng: "seven hundred",
             rus: "семьсот",
-            audio: null,
+            audio: sevenhundred,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "osiemset",
+            eng: "eight hundred",
             rus: "восемьсот",
-            audio: null,
+            audio: eighthundred,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "dziewięćset",
+            eng: "nine hundred",
             rus: "девятьсот",
-            audio: null,
+            audio: ninehundred,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "tysiąc",
+            eng: "thousand",
             rus: "тысяча",
-            audio: null,
+            audio: thousand,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "półtora",
+            eng: "one and a half",
             rus: "полтора",
-            audio: null,
+            audio: oneandahalf,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "połowa",
+            eng: "half",
             rus: "половина",
-            audio: null,
+            audio: half,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "trzy rubli",
+            eng: "three rubles",
             rus: "три рубля",
-            audio: null,
+            audio: threerubles,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "półtora rubli",
+            eng: "one and a half rubles",
             rus: "полтора рубля",
-            audio: null,
+            audio: oneandahalfrubles,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "Książka kosztuje 354 hrywny.",
+            eng: "The book costs 354 hryvnia.",
             rus: "Книга стоит триста пятьдесят четыре гривны.",
-            audio: null,
+            audio: thebookcosts354hryvnia,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "Przejazd kosztuje 8 hrywien",
+            eng: "The fare is 8 hryvnia.",
             rus: "Проезд стоит восемь гривен.",
-            audio: null,
+            audio: thefareis8hryvnia,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "Bilet do teatru kosztuje 182 hrywny.",
+            eng: "A ticket to the theater costs 182 hryvnia.",
             rus: "Билет в театр стоит сто восемьдесят две гривны.",
-            audio: null,
+            audio: atickettothetheatercosts,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "Panu pasuje marszrutka numer jeden.",
+            eng: "Marshrutka number one suits you.",
             rus: "Вам подходит маршрутка номер один.",
-            audio: null,
+            audio: marshrutkanumberone,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "Trolejbus numer 14 jedzie do parku.",
+            eng: "Trolleybus number 14 goes to the park.",
             rus: "Троллейбус номер четырнадцать едет до парка.",
-            audio: null,
+            audio: trolleybusnumber14goes,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "Do muzeum jedzie autobus numer 35.",
+            eng: "Bus number 35 goes to the museum.",
             rus: "До музея едет автобус номер тридцать пять.",
-            audio: null,
+            audio: busnumber35goestothe,
             img: null,
             alt: null
         },
@@ -438,66 +495,66 @@ const addition1 = {
         {
             namepol: "",
             nameeng: "",
-            pol: "",
-            eng: "",
+            pol: "Ile to kosztuje?",
+            eng: "How much is it?",
             rus: "Сколько это стоит?",
-            audio: null
+            audio: l1
         },
         {
             namepol: "",
             nameeng: "",
-            pol: "",
-            eng: "",
+            pol: "To kosztuje 4 rubli.",
+            eng: "It costs 4 rubles.",
             rus: "Это стоит четыре рубля.",
-            audio: null
+            audio: l2
         },
         {
             namepol: "",
             nameeng: "",
-            pol: "",
-            eng: "",
+            pol: "A ten breloczek?",
+            eng: "And this keychain?",
             rus: "А этот брелок?",
-            audio: null
+            audio: l3
         },
         {
             namepol: "",
             nameeng: "",
-            pol: "",
-            eng: "",
+            pol: "Breloczek kosztuje półtora rubla.",
+            eng: "The keychain costs 1,5 rubles.",
             rus: "Брелок стоит полтора рубля.",
-            audio: null
+            audio: l4
         },
         {
             namepol: "",
             nameeng: "",
-            pol: "",
-            eng: "",
+            pol: "Chcę kupić 5 magnesów.",
+            eng: "I want to buy 5 magnets.",
             rus: "Я хочу купить пять магнитиков.",
-            audio: null
+            audio: l5
         },
         {
             namepol: "",
             nameeng: "",
-            pol: "",
-            eng: "",
+            pol: "5 magnesów kosztuje 10 rubli. I jeden magnes dla Pana w prezencie. Oto Pana 6 magnesów.",
+            eng: "5 magnets cost 10 rubles. And 1 magnet for you as a gift. Here are your 6 magnets.",
             rus: "Пять магнитиков стоит десять рублей. И один магнитик Вам в подарок. Вот Ваши шесть магнитиков.",
-            audio: null
+            audio: l6
         },
         {
             namepol: "",
             nameeng: "",
-            pol: "",
-            eng: "",
+            pol: "Czy dojadę do muzeum marszrutką 43?",
+            eng: "Will I get to the museum by minibus 43?",
             rus: "Я доеду до музея на маршрутке сорок три?",
-            audio: null
+            audio: l7
         },
         {
             namepol: "",
             nameeng: "",
-            pol: "",
-            eng: "",
+            pol: "Tak. Jeszcze do muzeum jedzie autobus numer 15 i 68.",
+            eng: "Yes. Also bus number 15 and 68 goes to the museum",
             rus: "Да. Ещё до музея едет автобус номер пятнадцать и шестьдесят восемь.",
-            audio: null
+            audio: l8
         },
     ],    
 }
