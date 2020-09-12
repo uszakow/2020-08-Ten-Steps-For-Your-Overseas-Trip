@@ -52,15 +52,14 @@ class Lesson extends Component {
         this.getAudioSpeed();
     }
     render() {
-        //indexOfLesson must be a number
+        //indexOfLesson ma być liczbą naturalną
         const indexOfLesson = parseInt(this.props.match.params.index);
         const lesson = lessons[indexOfLesson];
         const { lang, isMobile } = this.props;
         const { audioSpeed } = this.state;
 
-        //Checking if indexOfLesson have mistakes: if it in's a number, less than 0 or more that length of object with all lessons. If yes - Page404. If no - lesson content.
+        //Sprawdzenie czy indexOfLesson ma błędy: nie jest liczbą, jest mniejszy od zera lub większy niż index ostatniego obiektu w tablicy lessons. Jeżeli tak - Page404. Jeżeli nie - treść danego kroku.        
         if (isNaN(indexOfLesson) || indexOfLesson < 0 || indexOfLesson >= lessons.length) {
-            console.log(indexOfLesson < 0)
             return (
                 <Page404 lang={lang} />
             )
