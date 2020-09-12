@@ -3,13 +3,18 @@ import './AboutMeExamples.scss';
 
 import examples from './examples';
 
+const title = {
+    pol: "Przykłady moich stron:",
+    eng: "Examples of my sites:"
+}
+
 const AboutMeExamples = props => {
     const { lang } = props;
     const textForCard = (lang === "pol" ? "Kod źródłowy: " : "Source code: ")
 
     return (
         <>
-            <div className="aboutme-examples-title">Przykłady moich stron:</div>
+            <div className="aboutme-examples-title">{title[lang]}</div>
             <div className="aboutme-examples-wrap">
                 {examples.map((item, index) => (
                     <div key={index} className="aboutme-examples-card">
