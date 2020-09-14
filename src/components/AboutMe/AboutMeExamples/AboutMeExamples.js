@@ -1,12 +1,9 @@
 import React from 'react';
 import './AboutMeExamples.scss';
 
-import examples from './examples';
+import { title, examples } from './examples';
 
-const title = {
-    pol: "Przykłady moich stron:",
-    eng: "Examples of my sites:"
-}
+
 
 const AboutMeExamples = props => {
     const { lang } = props;

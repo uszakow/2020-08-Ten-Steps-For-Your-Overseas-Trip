@@ -7,6 +7,11 @@ import pokemons from './../../../img/AboutMe/Examples/pokemons.jpg';
 import todo from './../../../img/AboutMe/Examples/todo.jpg';
 import weather from './../../../img/AboutMe/Examples/weather.jpg';
 
+const title = {
+    pol: "Przykłady moich stron:",
+    eng: "Examples of my sites:"
+}
+
 const examples = [
     {
         pol: "Mój aktualny projekt. Razem z przyjaciółmi piszę portal internetowy, poświęcony leczeniu hipotrofii (obniżonej masy ciała) u dzieci. Piszę dla portalu wizualną część oraz koordynuję pracę wydziału front-end.",
@@ -74,4 +79,4 @@ const examples = [
     },
 ]
 
-export default examples;
+export { title, examples };

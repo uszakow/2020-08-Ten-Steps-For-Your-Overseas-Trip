@@ -1,3 +1,68 @@
+import eighthundredth from './audio/phrases/Eight hundredth.mp3';
+import eight from './audio/phrases/Eight.mp3';
+import eighteenth from './audio/phrases/Eighteenth.mp3';
+import eighth from './audio/phrases/Eighth.mp3';
+import eightieth from './audio/phrases/Eightieth.mp3';
+import eleventh from './audio/phrases/Eleventh.mp3';
+import fifteenth from './audio/phrases/Fifteenth.mp3';
+import fifth from './audio/phrases/Fifth.mp3';
+import fiftieth from './audio/phrases/Fiftieth.mp3';
+import first from './audio/phrases/First.mp3';
+import fivehundredth from './audio/phrases/Five hundredth.mp3';
+import five from './audio/phrases/Five.mp3';
+import fortieth from './audio/phrases/Fortieth.mp3';
+import forty from './audio/phrases/Forty.mp3';
+import fourhundredth from './audio/phrases/Four hundredth.mp3';
+import four from './audio/phrases/Four.mp3';
+import fourteenth from './audio/phrases/Fourteenth.mp3';
+import fourth from './audio/phrases/Fourth.mp3';
+import hundred from './audio/phrases/Hundred.mp3';
+import hundredth from './audio/phrases/Hundredth.mp3';
+import ninehundredth from './audio/phrases/Nine hundredth.mp3';
+import nine from './audio/phrases/Nine.mp3';
+import nineteenth from './audio/phrases/Nineteenth.mp3';
+import ninetieth from './audio/phrases/Ninetieth.mp3';
+import ninth from './audio/phrases/Ninth.mp3';
+import one from './audio/phrases/One.mp3';
+import secondmetroline from './audio/phrases/Second metro line.mp3';
+import second from './audio/phrases/Second.mp3';
+import sevenhundredth from './audio/phrases/Seven hundredth.mp3';
+import seven from './audio/phrases/Seven.mp3';
+import seventeenth from './audio/phrases/Seventeenth.mp3';
+import seventh from './audio/phrases/Seventh.mp3';
+import seventieth from './audio/phrases/Seventieth.mp3';
+import sixhundredth from './audio/phrases/Six hundredth.mp3';
+import six from './audio/phrases/Six.mp3';
+import sixteenth from './audio/phrases/Sixteenth.mp3';
+import sixth from './audio/phrases/Sixth.mp3';
+import sixtieth from './audio/phrases/Sixtieth.mp3';
+import ten from './audio/phrases/Ten.mp3';
+import tenth from './audio/phrases/Tenth.mp3';
+import the16tramgoestothemarket from './audio/phrases/The 16 tram goes to the market.mp3';
+import the21trolleybusgoestothebank from './audio/phrases/The 21 trolleybus goes to the bank.mp3';
+import the60marshrutkagoesstraight from './audio/phrases/The 60 marshrutka goes straight.mp3';
+import third from './audio/phrases/Third.mp3';
+import thirteenth from './audio/phrases/Thirteenth.mp3';
+import thirtieth from './audio/phrases/Thirtieth.mp3';
+import thirty from './audio/phrases/Thirty.mp3';
+import thousandth from './audio/phrases/Thousandth.mp3';
+import threehundredth from './audio/phrases/Three hundredth.mp3';
+import three from './audio/phrases/Three.mp3';
+import twelfth from './audio/phrases/Twelfth.mp3';
+import twentieth from './audio/phrases/Twentieth.mp3';
+import twenty from './audio/phrases/Twenty.mp3';
+import twohundredth from './audio/phrases/Two hundredth.mp3';
+import two from './audio/phrases/Two.mp3';
+import youcangettotheoperaby from './audio/phrases/You can get to the opera by.mp3';
+import youneeda33marshrutka from './audio/phrases/You need a 33 marshrutka.mp3';
+
+import l1 from './audio/dialogue/L1.mp3';
+import l2 from './audio/dialogue/L2.mp3';
+import l3 from './audio/dialogue/L3.mp3';
+import l4 from './audio/dialogue/L4.mp3';
+import l5 from './audio/dialogue/L5.mp3';
+import l6 from './audio/dialogue/L6.mp3';
+
 const addition2 = {
     name: {
         pol: "Dodatek 2: liczebniki porządkowe",
@@ -12,514 +77,514 @@ const addition2 = {
     phrases: [
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "pierwszy",
+            eng: "first",
             rus: "первый",
-            audio: null,
+            audio: first,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "drugi",
+            eng: "second",
             rus: "второй",
-            audio: null,
+            audio: second,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "trzeci",
+            eng: "third",
             rus: "третий",
-            audio: null,
+            audio: third,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "czwarty",
+            eng: "fourth",
             rus: "четвёртый",
-            audio: null,
+            audio: fourth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "piąty",
+            eng: "fifth",
             rus: "пятый",
-            audio: null,
+            audio: fifth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "szósty",
+            eng: "sixth",
             rus: "шестой",
-            audio: null,
+            audio: sixth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "siódmy",
+            eng: "seventh",
             rus: "седьмой",
-            audio: null,
+            audio: seventh,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "ósmy",
+            eng: "eighth",
             rus: "восьмой",
-            audio: null,
+            audio: eighth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "dziewiąty",
+            eng: "ninth",
             rus: "девятый",
-            audio: null,
+            audio: ninth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "dziesiąty",
+            eng: "tenth",
             rus: "десятый",
-            audio: null,
+            audio: tenth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "jedenasty",
+            eng: "eleventh",
             rus: "одиннадцатый",
-            audio: null,
+            audio: eleventh,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "dwunasty",
+            eng: "twelfth",
             rus: "двенадцатый",
-            audio: null,
+            audio: twelfth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "trzynasty",
+            eng: "thirteenth",
             rus: "тринадцатый",
-            audio: null,
+            audio: thirteenth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "czternasty",
+            eng: "fourteenth",
             rus: "четырнадцатый",
-            audio: null,
+            audio: fourteenth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "piętnasty",
+            eng: "fifteenth",
             rus: "пятнадцатый",
-            audio: null,
+            audio: fifteenth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "szesnasty",
+            eng: "sixteenth",
             rus: "шестнадцатый",
-            audio: null,
+            audio: sixteenth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "siedemnasty",
+            eng: "seventeenth",
             rus: "семнадцатый",
-            audio: null,
+            audio: seventeenth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "osiemnasty",
+            eng: "eighteenth",
             rus: "восемнадцатый",
-            audio: null,
+            audio: eighteenth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "dziewiętnasty",
+            eng: "nineteenth",
             rus: "девятнадцатый",
-            audio: null,
+            audio: nineteenth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "dwudziesty",
+            eng: "twentieth",
             rus: "двадцатый",
-            audio: null,
+            audio: twentieth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "trzydziesty",
+            eng: "thirtieth",
             rus: "тридцатый",
-            audio: null,
+            audio: thirtieth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "czterdziesty",
+            eng: "fortieth",
             rus: "сороковой",
-            audio: null,
+            audio: fortieth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "pięćdziesiąty",
+            eng: "fiftieth",
             rus: "пятидесятый",
-            audio: null,
+            audio: fiftieth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "sześćdziesiąty",
+            eng: "sixtieth",
             rus: "шестидесятый",
-            audio: null,
+            audio: sixtieth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "siedemdziesiąty",
+            eng: "seventieth",
             rus: "семидесятый",
-            audio: null,
+            audio: seventieth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "osiemdziesiąty",
+            eng: "eightieth",
             rus: "восьмидесятый",
-            audio: null,
+            audio: eightieth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "dziewięćdziesiąty",
+            eng: "ninetieth",
             rus: "девяностый",
-            audio: null,
+            audio: ninetieth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "setny",
+            eng: "hundredth",
             rus: "сотый",
-            audio: null,
+            audio: hundredth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "dwusetny",
+            eng: "two hundredth",
             rus: "двухсотый",
-            audio: null,
+            audio: twohundredth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "trzechsetny",
+            eng: "three hundredth",
             rus: "трёхсотый",
-            audio: null,
+            audio: threehundredth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "czterechsetny",
+            eng: "four hundredth",
             rus: "четырёхсотый",
-            audio: null,
+            audio: fourhundredth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "pięćsetny",
+            eng: "five hundredth",
             rus: "пятисотый",
-            audio: null,
+            audio: fivehundredth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "sześćsetny",
+            eng: "six hundredth",
             rus: "шестисотый",
-            audio: null,
+            audio: sixhundredth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "siedemsetny",
+            eng: "seven hundredth",
             rus: "семисотый",
-            audio: null,
+            audio: sevenhundredth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "osiemsetny",
+            eng: "eight hundredth",
             rus: "восьмисотый",
-            audio: null,
+            audio: eighthundredth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "dziewięćsetny",
+            eng: "nine hundredth",
             rus: "девятисотый",
-            audio: null,
+            audio: ninehundredth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "tysięczny",
+            eng: "thousandth",
             rus: "тысячный",
-            audio: null,
+            audio: thousandth,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "druga linia metra",
+            eng: "second metro line",
             rus: "вторая ветка метро",
-            audio: null,
+            audio: secondmetroline,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "jedynka",
+            eng: "one",
             rus: "единица",
-            audio: null,
+            audio: one,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "dwójka",
+            eng: "two",
             rus: "двойка",
-            audio: null,
+            audio: two,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "trójka",
+            eng: "three",
             rus: "тройка",
-            audio: null,
+            audio: three,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "czwórka",
+            eng: "four",
             rus: "четвёрка",
-            audio: null,
+            audio: four,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "piątka",
+            eng: "five",
             rus: "пятёрка",
-            audio: null,
+            audio: five,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "szóstka",
+            eng: "six",
             rus: "шестёрка",
-            audio: null,
+            audio: six,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "siódemka",
+            eng: "seven",
             rus: "семёрка",
-            audio: null,
+            audio: seven,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "ósemka",
+            eng: "eight",
             rus: "восьмёрка",
-            audio: null,
+            audio: eight,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "dziewiątka",
+            eng: "nine",
             rus: "девятка",
-            audio: null,
+            audio: nine,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "dziesiątka",
+            eng: "ten",
             rus: "десятка",
-            audio: null,
+            audio: ten,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "dwudziestka",
+            eng: "twenty",
             rus: "двадцатка",
-            audio: null,
+            audio: twenty,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "trzydziestka",
+            eng: "thirty",
             rus: "тридцатка",
-            audio: null,
+            audio: thirty,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "czterdziestka",
+            eng: "forty",
             rus: "сороковка",
-            audio: null,
+            audio: forty,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "setka",
+            eng: "hundred",
             rus: "сотка",
-            audio: null,
+            audio: hundred,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "Pan potrzebuje 33. marszrutki.",
+            eng: "You need a 33. marshrutka.",
             rus: "Вам нужна тридцать третья маршрутка.",
-            audio: null,
+            audio: youneeda33marshrutka,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "Do opery Państwo dojadą 115. marszrutką.",
+            eng: "You can get to the opera by 115. marshrutka.",
             rus: "До оперы вы доедете на сто пятнадцатой маршрутке.",
-            audio: null,
+            audio: youcangettotheoperaby,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "60. marszrutka jedzie wprost do morza.",
+            eng: "The 60. marshrutka goes straight to the sea.",
             rus: "Шестидесятая маршрутка едет прямо к морю.",
-            audio: null,
+            audio: the60marshrutkagoesstraight,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "16. tramwaj jedzie do rynku.",
+            eng: "The 16. tram goes to the market.",
             rus: "Шестнадцатый трамвай едет до рынка.",
-            audio: null,
+            audio: the16tramgoestothemarket,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "Do banku jedzie 21. trolejbus.",
+            eng: "The 21. trolleybus goes to the bank.",
             rus: "До банка едет двадцать первый троллейбус.",
-            audio: null,
+            audio: the21trolleybusgoestothebank,
             img: null,
             alt: null
         },
@@ -528,50 +593,50 @@ const addition2 = {
         {
             namepol: "",
             nameeng: "",
-            pol: "",
-            eng: "",
+            pol: "Proszę podpowiedzieć, do dworca jedzie pierwszy tramwaj?",
+            eng: "Could you tell me, is the first tram go to the bus station?",
             rus: "Скажите, до автовокзала едет первый трамвай?",
-            audio: null
+            audio: l1
         },
         {
             namepol: "",
             nameeng: "",
-            pol: "",
-            eng: "",
+            pol: "Nie, jedynka Panu nie pasuje. Do dworca autorusowego jedzie dwójka i ósemka.",
+            eng: "No, the first does not suit you. Two and eight go to the bus station.",
             rus: "Нет, единица Вам не подходит. До автовокзала едет двойка и восьмёрка.",
-            audio: null
+            audio: l2
         },
         {
             namepol: "",
             nameeng: "",
-            pol: "",
-            eng: "",
+            pol: "A tam jedzie jakaś marszrutka?",
+            eng: "Is there any marshrutka go there?",
             rus: "А туда идёт какая-нибудь маршрутка?",
-            audio: null
+            audio: l3
         },
         {
             namepol: "",
             nameeng: "",
-            pol: "",
-            eng: "",
-            rus: "Да, Туда идёт двадцать вторая, пятьдесят четвёртая, шестидесятая и шестьдесят первая маршрутка.",
-            audio: null
+            pol: "Tak, tędy jedzie dwudziesta druga, pięćdziesiąta czwarta, sześćdziesiąta i sześćdziesiąta pierwsza marszrutka.",
+            eng: "Yes, there is the twenty-second, fifty-fourth, sixtieth and sixty-first marshrutkas.",
+            rus: "Да, туда идёт двадцать вторая, пятьдесят четвёртая, шестидесятая и шестьдесят первая маршрутка.",
+            audio: l4
         },
         {
             namepol: "",
             nameeng: "",
-            pol: "",
-            eng: "",
+            pol: "Ósmy aurobus jedzie do morza?",
+            eng: "Is the eighth bus go to the sea?",
             rus: "Восьмой автобус едет к морю?",
-            audio: null
+            audio: l5
         },
         {
             namepol: "",
             nameeng: "",
-            pol: "",
-            eng: "",
+            pol: "Nie, ósemka do morza nie jedzie. Do morza jedzie osiemnasty i trzydziesty szósty autobus.",
+            eng: "No, the eight does not go to the sea. The eighteenth and thirty-sixth buses go to the sea.",
             rus: "Нет, восьмёрка к морю не едет. К морю едет восемнадцатый и тридцать шестой автобус.",
-            audio: null
+            audio: l6
         },
     ],   
 }

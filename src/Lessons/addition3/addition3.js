@@ -1,3 +1,30 @@
+import affable from './audio/phrases/Affable.mp3';
+import bad from './audio/phrases/Bad.mp3';
+import beautiful from './audio/phrases/Beautiful.mp3';
+import better from './audio/phrases/Better.mp3';
+import big from './audio/phrases/Big.mp3';
+import bigger from './audio/phrases/Bigger.mp3';
+import chilly from './audio/phrases/Chilly.mp3';
+import cloudy from './audio/phrases/Cloudy.mp3';
+import cold from './audio/phrases/Cold.mp3';
+import disgusting from './audio/phrases/Disgusting.mp3';
+import good from './audio/phrases/Good.mp3';
+import hot from './audio/phrases/Hot.mp3';
+import itwillbecloudtomorrow from './audio/phrases/It will be cloud tomorrow.mp3';
+import leather from './audio/phrases/Leather.mp3';
+import little from './audio/phrases/Little.mp3';
+import mulricolored from './audio/phrases/Multicolored.mp3';
+import pleasant from './audio/phrases/Pleasant.mp3';
+import smaller from './audio/phrases/Smaller.mp3';
+import sunny from './audio/phrases/Sunny.mp3';
+import thewholeweekisveryhot from './audio/phrases/The whole week is very hot.mp3';
+import therearefriendlypeoplehere from './audio/phrases/There are friendly people here.mp3';
+import thisisaleatherbad from './audio/phrases/This is a leather bag.mp3';
+import todayisawarmday from './audio/phrases/Today is a warm day.mp3';
+import warm from './audio/phrases/Warm.mp3';
+import waterintheseaiscold from './audio/phrases/Water in the sea is cold.mp3';
+import worse from './audio/phrases/Worse.mp3';
+
 const addition3 = {
     name: {
         pol: "Dodatek 3: przymiotniki",
@@ -12,244 +39,235 @@ const addition3 = {
     phrases: [
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "duży",
+            eng: "big",
             rus: "большой",
-            audio: null,
+            audio: big,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "mały",
+            eng: "little",
             rus: "маленький",
-            audio: null,
+            audio: little,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "większy",
+            eng: "bigger",
             rus: "больше",
-            audio: null,
+            audio: bigger,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "mniejszy",
+            eng: "smaller",
             rus: "меньше",
-            audio: null,
+            audio: smaller,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "dobry",
+            eng: "good",
             rus: "хороший",
-            audio: null,
+            audio: good,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "zły",
+            eng: "bad",
             rus: "плохой",
-            audio: null,
+            audio: bad,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "lepszy",
+            eng: "better",
             rus: "лучше",
-            audio: null,
+            audio: better,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "gorszy",
+            eng: "worse",
             rus: "хуже",
-            audio: null,
+            audio: worse,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "przyjemny",
+            eng: "pleasant",
             rus: "приятный",
-            audio: null,
+            audio: pleasant,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "życzliwy",
+            eng: "affable",
             rus: "приветливый",
-            audio: null,
+            audio: affable,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "piękny",
+            eng: "beautiful",
             rus: "красивый",
-            audio: null,
+            audio: beautiful,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "obrzydliwy",
+            eng: "disgusting",
             rus: "отвратительный",
-            audio: null,
+            audio: disgusting,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "słoneczny",
+            eng: "sunny",
             rus: "солнечный",
-            audio: null,
+            audio: sunny,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
-            rus: "пасмурный",
-            audio: null,
+            pol: "pochmurny",
+            eng: "cloudy",
+            rus: "пасмурный / облачный",
+            audio: cloudy,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
-            rus: "облачный",
-            audio: null,
-            img: null,
-            alt: null
-        },
-        {
-            type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "ciepły",
+            eng: "warm",
             rus: "тёплый",
-            audio: null,
+            audio: warm,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "zimny",
+            eng: "cold",
             rus: "холодный",
-            audio: null,
+            audio: cold,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "chłodny",
+            eng: "chilly",
             rus: "прохладный",
-            audio: null,
+            audio: chilly,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "gorący",
+            eng: "hot",
             rus: "жаркий",
-            audio: null,
+            audio: hot,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "wielobarwny",
+            eng: "multicolored",
             rus: "разноцветный",
-            audio: null,
+            audio: mulricolored,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "skórzany",
+            eng: "leather",
             rus: "кожаный",
-            audio: null,
+            audio: leather,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "To jest skórzana torba.",
+            eng: "This is a leather bag.",
             rus: "Это кожаная сумка.",
-            audio: null,
+            audio: thisisaleatherbad,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "Dziś jest ciepły dzień.",
+            eng: "Today is a warm day.",
             rus: "Сегодня тёплый день.",
-            audio: null,
+            audio: todayisawarmday,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "Jutro będzie pochmurnie.",
+            eng: "It will be cloudy tomorrow.",
             rus: "Завтра будет облачная погода.",
-            audio: null,
+            audio: itwillbecloudtomorrow,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "Cały tydzień jest bardzo gorący.",
+            eng: "The whole week is very hot.",
             rus: "Вся неделя очень жаркая.",
-            audio: null,
+            audio: thewholeweekisveryhot,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "Woda w morzu jest zimna.",
+            eng: "Water in the sea is cold.",
             rus: "Вода в море холодная.",
-            audio: null,
+            audio: waterintheseaiscold,
             img: null,
             alt: null
         },
         {
             type: "phrase",
-            pol: "",
-            eng: "",
+            pol: "Tutaj są przyjaźni ludzie.",
+            eng: "There are friendly people here.",
             rus: "Тут приветливые люди.",
-            audio: null,
+            audio: therearefriendlypeoplehere,
             img: null,
             alt: null
         },
