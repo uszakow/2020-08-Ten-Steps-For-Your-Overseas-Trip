@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b66545154fb594b14f083d1052d2326",
+    "revision": "7138626c01d19e495afa58c91405ff0a",
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/index.html"
   },
   {
-    "revision": "ad29e4a28589f9f9aece",
+    "revision": "b6389f64c7806a4b6a11",
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/css/main.3adf890b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/2.5d5d9d88.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ad29e4a28589f9f9aece",
-    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/main.d7b62cc8.chunk.js"
+    "revision": "b6389f64c7806a4b6a11",
+    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/js/main.a3cc8e19.chunk.js"
   },
   {
     "revision": "e1b4cb525b99aaa78eff",
@@ -2952,6 +2952,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/cinema.92682d76.png"
   },
   {
+    "revision": "d4401a8c3be776b267ca807fc25570f0",
+    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/cryptotrading.d4401a8c.jpg"
+  },
+  {
     "revision": "2ca884530d6e08f8540700e76c3a63cb",
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/css.2ca88453.svg"
   },
@@ -2978,10 +2982,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e66c874393000b5136047835e710897a",
     "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/fashion tagline here.e66c8743.jpg"
-  },
-  {
-    "revision": "a95dc6c1c0a250e580f5e47418ae7b85",
-    "url": "/2020-08-Ten-Steps-For-Your-Overseas-Trip/static/media/fashionshop.a95dc6c1.jpg"
   },
   {
     "revision": "5020f92866f227ed38044101154d7144",
