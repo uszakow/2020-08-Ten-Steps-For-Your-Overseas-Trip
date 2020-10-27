@@ -1,6 +1,7 @@
 import activebox from './../../../img/AboutMe/Examples/activebox.jpg';
+import cryptotrading from './../../../img/AboutMe/Examples/cryptotrading.jpg';
 import fashiontaglinehere from './../../../img/AboutMe/Examples/fashion tagline here.jpg';
-import fashionshop from './../../../img/AboutMe/Examples/fashionshop.jpg';
+// import fashionshop from './../../../img/AboutMe/Examples/fashionshop.jpg';
 import hipotrofia from './../../../img/AboutMe/Examples/hipotrofia.jpg';
 import memory from './../../../img/AboutMe/Examples/memory.jpg';
 import pokemons from './../../../img/AboutMe/Examples/pokemons.jpg';
@@ -22,6 +23,14 @@ const examples = [
         gitpage: "https://uszakow.github.io/2020-06-Hipotrofia/",
     },
     {
+        pol: "Przykładowa strona internetowa dla firmy prywatnej. Podstawową technologią do napisania strony jest React (react-router-dom, axios, hooks), style pisałem w SCSS.",
+        eng: "Sample website for a private company. The basic technology to write a website is React (react-router-dom, axios, hooks), for writing styles I used SCSS.",
+        src: cryptotrading,
+        alt: "Crypto-trading",
+        github: "https://github.com/uszakow/2020-10-Crypto-trading",
+        gitpage: "https://uszakow.github.io/2020-10-Crypto-trading/",
+    },
+    {
         pol: "Wyszukiwarka pokemonów według różnych parametrów za pomocą API. W tej aplikacji ćwiczyłem pracę z API, funkcje asynchroniczne, filtrowanie wyników, paginację.",
         eng: "Pokemon finder by various parameters using API. In this application, I practiced working with API, asynchronous functions, result filtering, pagination.",
         src: pokemons,
@@ -30,7 +39,7 @@ const examples = [
         gitpage: "https://uszakow.github.io/2020-04-Pokemons/",
     },
     {
-        pol: "Notatnik do zapisywania spraw z możliwością włączenia przypomnienia. W tej aplikacji uczyłem się konstruowaniu aplikacji i zasad wzorcu MVC.",
+        pol: "Notatnik do zapisywania spraw z możliwością włączenia przypomnienia. W tej aplikacji uczyłem się konstruowania aplikacji i zasad wzorcu MVC.",
         eng: "Notebook for saving cases with the option of enabling a reminder. In this application, I learned application development and the principles of the MVC pattern.",
         src: todo,
         alt: "Diary",
@@ -69,14 +78,14 @@ const examples = [
         github: "https://github.com/uszakow/2019-06-ActiveBox",
         gitpage: "https://uszakow.github.io/2019-06-ActiveBox/",
     },
-    {
-        pol: "Jedna z moich pierwszych statycznych stron, napisanych z wykorzystaniem HTML i CSS.",
-        eng: "One of my first static pages written with HTML and CSS.",
-        src: fashionshop,
-        alt: "Fashion Shop",
-        github: "https://github.com/uszakow/2019-06-Fashion-shop",
-        gitpage: "https://uszakow.github.io/2019-06-Fashion-shop/",
-    },
+    // {
+    //     pol: "Jedna z moich pierwszych statycznych stron, napisanych z wykorzystaniem HTML i CSS.",
+    //     eng: "One of my first static pages written with HTML and CSS.",
+    //     src: fashionshop,
+    //     alt: "Fashion Shop",
+    //     github: "https://github.com/uszakow/2019-06-Fashion-shop",
+    //     gitpage: "https://uszakow.github.io/2019-06-Fashion-shop/",
+    // },
 ]
 
 export { title, examples };
