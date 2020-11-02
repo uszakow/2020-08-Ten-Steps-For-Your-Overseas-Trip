@@ -26,11 +26,11 @@ const AboutMeIntroducing = props => {
                 ))}
                 <div className="aboutme-introducing-link">
                     <span>GitHub: </span>
-                    <a href="https://github.com/uszakow">https://github.com/uszakow</a>
+                    <a href="https://github.com/uszakow" target="_blank" rel="noopener noreferrer">https://github.com/uszakow</a>
                 </div>
                 <div className="aboutme-introducing-link">
                     <span>LinkedIn: </span>
-                    <a href="https://www.linkedin.com/public-profile/in/p-uszakow">https://www.linkedin.com/public-profile/in/p-uszakow</a>
+                    <a href="https://www.linkedin.com/public-profile/in/p-uszakow" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/public-profile/in/p-uszakow</a>
                 </div>
             </div>
         </div>

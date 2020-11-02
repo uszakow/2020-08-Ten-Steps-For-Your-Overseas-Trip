@@ -21,8 +21,8 @@ const Footer = props => {
             <div>
                 <div className="footer-title">{author[lang]}:</div>
                 <div className="footer-title">Paweł Uszakow</div>
-                <div>GitHub: <a href="https://github.com/uszakow">https://github.com/uszakow</a></div>
-                <div>LinkedIn: <a href="https://www.linkedin.com/in/p-uszakow">https://www.linkedin.com/in/p-uszakow</a></div>
+                <div>GitHub: <a href="https://github.com/uszakow" target="_blank" rel="noopener noreferrer">https://github.com/uszakow</a></div>
+                <div>LinkedIn: <a href="https://www.linkedin.com/in/p-uszakow" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/p-uszakow</a></div>
             </div>
         </footer>
     )
